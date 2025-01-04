@@ -49,7 +49,7 @@
     <div class="swiper-wrapper hero-wrapper">
 
         <div class="swiper-slide hero-slide">
-            <section class="hero" style="background: url(img/ships/Royal-Caribbean-Wonder-of-the-Seas_1.webp) center/cover no-repeat;">
+            <section class="hero" style="background: url(img/ships/wonderots2.jpg) center/cover no-repeat;">
                 <div class="hero-gradient"></div>
                 <!-- <img class="hero-bg" src="img/crew/chef.png" alt=""> -->
                 <div class="hero-content">
@@ -65,11 +65,11 @@
                         <a href="">Partner with us</a>
                     </div>
                     <div class="hero-brands">
-                        <img src="img/assets/brands-logo/royal-logo.png" alt="">
-                        <img src="img/assets/brands-logo/celebrity-logo.png" alt="">
-                        <img src="img/assets/brands-logo/silversea-logo.png" alt="">
-                        <img src="img/assets/brands-logo/tui-logo.png" alt="">
-                        <img src="img/assets/brands-logo/hapag-logo.png" alt="">
+                        <img src="img/assets/brands-logo/royal-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/silversea-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/tui-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/hapag-logo-white.png" alt="">
                     </div>
 
                 </div>
@@ -78,7 +78,7 @@
         </div>
 
         <div class="swiper-slide hero-slide">
-            <section class="hero" style="background: url(img/ships/wonderots.webp) center/cover no-repeat;">
+            <section class="hero" style="background: url(img/ships/banner2.jpg) center/cover no-repeat;">
                 <div class="hero-gradient"></div>
                 <img class="hero-bg" src="img/equinox/ambassador.png" alt="">
                 <div class="hero-content">
@@ -90,11 +90,11 @@
                         <a href="">About Hariri Sulaiman</a>
                     </div>
                     <div class="hero-brands">
-                        <img src="img/assets/brands-logo/royal-logo.png" alt="">
-                        <img src="img/assets/brands-logo/celebrity-logo.png" alt="">
-                        <img src="img/assets/brands-logo/silversea-logo.png" alt="">
-                        <img src="img/assets/brands-logo/tui-logo.png" alt="">
-                        <img src="img/assets/brands-logo/hapag-logo.png" alt="">
+                        <img src="img/assets/brands-logo/royal-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/silversea-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/tui-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/hapag-logo-white.png" alt="">
                     </div>
 
                 </div>
@@ -103,8 +103,8 @@
         </div>
 
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
     <div class="swiper-pagination"></div>
 </div>
 

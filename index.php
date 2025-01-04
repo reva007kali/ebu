@@ -36,30 +36,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <div class="intro">
         <div class="intro-container">
             <div class="intro-col-1">
-                <h1 class="heading1">We Help People Achieves <span class="text-secondary">Their Dreams</span></h1>
-                <div class="intro-row">
-                    <div class="intro-card">
-                        <div class="flex data-numbers-container">
-                            <h3 class="data-numbers" data-target="3900">4000</h3>
-                            <h3>+</h3>
-                        </div>
-                        <h2>Deployed</h2>
-                    </div>
-                    <div class="intro-card">
-                        <div class="flex data-numbers-container">
-                            <h3 class="data-numbers" data-target="32">4000</h3>
-                            <h3>+</h3>
-                        </div>
-                        <h2>Countries</h2>
-                    </div>
-                    <div class="intro-card">
-                        <div class="flex data-numbers-container">
-                            <h3 class="data-numbers" data-target="42">4000</h3>
-                            <h3>+</h3>
-                        </div>
-                        <h2>ships</h2>
-                    </div>
-                </div>
+                <h1 class="heading1">"We Help People Achieves Their Dreams"</span></h1>
             </div>
             <div class="intro-col-2">
                 <img src="img/assets/svg/play-circle.svg" alt="">
@@ -77,7 +54,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- deployed numbers -->
     <section class="deployed">
-        <h1 class="heading2 text-light">Crew departure statistics <span class="text-third">by
+        <img src="img/ships/royal-caribbean-cruises.jpg" alt="" class="deployed-background">
+        <h1 class="heading2 text-light">Crew departure statistics <span class="text-primary">by
                 department</span></h1>
         <div class="deployed-row">
 
@@ -141,26 +119,33 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <section class="office">
         <div class="office-heading">
             <h1 class="heading2 text-primary">Our Office Location</h1>
-            <p class="para">Equinox Bahari Utama, a fully licensed crewing company in Indonesia, operates offices in both Jakarta and
-                Bali, each offering unique advantages to seafarers and clients.</p>
+            <!-- <p class="para">Equinox Bahari Utama, a fully licensed crewing company in Indonesia, operates offices in both Jakarta and
+                Bali, each offering unique advantages to seafarers and clients.</p> -->
         </div>
 
         <div class="office-row">
             <div class="office-col">
                 <div class="office-content">
                     <h1>Jakarta Office</h1>
-                    <h2><strong>Location:</strong> Globe Building, 4th-5th Floor, Jl. Warung Jati Barat Kav. 31-33,
-                        South Jakarta, 12740 Indonesia.</h2>
                     <ul>
-                        <li><strong>Strategic Position:</strong> Situated in Indonesia's capital, the Jakarta office is at the heart of
+                        <li><strong>Strategic Position:</strong> <br>Situated in Indonesia's capital, the Jakarta office
+                            is at the heart of
                             the nation's maritime industry, providing easy access to major shipping companies and
                             regulatory bodies.</li>
-                        <li><strong>Comprehensive Services:</strong> As the head office, it offers a full range of services, including
+                        <li><strong>Comprehensive Services:</strong> <br>As the head office, it offers a full range of
+                            services, including
                             recruitment, training, and crew management, ensuring efficient operations and support for
                             seafarers.</li>
-                        <li><strong>Professional Network:</strong> Proximity to various maritime organizations and institutions
+                        <li><strong>Professional Network:</strong> <br>Proximity to various maritime organizations and
+                            institutions
                             facilitates strong industry connections and opportunities for collaboration.</li>
                     </ul>
+
+                    <h2><strong class="text-third">Location:</strong> Globe Building, 4th-5th Floor, Jl. Warung Jati
+                        Barat Kav. 31-33,
+                        South Jakarta, 12740 Indonesia.</h2>
+                    <br>
+                    <a class="flex" href="https://maps.app.goo.gl/2ZiDaNgheY4t8EkH6"><i data-feather="map-pin"></i>Open map</a>
                 </div>
             </div>
             <div class="office-col">
@@ -171,12 +156,21 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
             <div class="office-col">
                 <div class="office-content">
                     <h1>Bali Office</h1>
-                    <h2><strong>Location:</strong> Gedung MNC Vision Lt.3, Denpasar, Bali.</h2>
+
                     <ul>
-                        <li><strong>Regional Accessibility:</strong> The Bali office caters to seafarers in the eastern regions of Indonesia, making it convenient for local applicants to access recruitment and training services.</li>
-                        <li><strong>Focused Recruitment:</strong> Specializes in conducting walk-in interviews and onboarding processes, streamlining the hiring experience for candidates.</li>
-                        <li><strong>Cultural Hub:</strong>Cultural Hub: Located in a major tourist destination, the Bali office benefits from a rich cultural environment, enhancing the hospitality training provided to cruise ship crew members.</li>
+                        <li><strong>Regional Accessibility:</strong><br>The Bali office caters to seafarers in the eastern
+                            regions of Indonesia, making it convenient for local applicants to access recruitment and
+                            training services.</li>
+                        <li><strong>Focused Recruitment:</strong> <br>Specializes in conducting walk-in interviews and
+                            onboarding processes, streamlining the hiring experience for candidates.</li>
+                        <li><strong>Cultural Hub:</strong><br>Cultural Hub: Located in a major tourist destination, the Bali
+                            office benefits from a rich cultural environment, enhancing the hospitality training
+                            provided to cruise ship crew members.</li>
                     </ul>
+
+                    <h2><strong class="text-third">Location:</strong> Gedung MNC Vision Lt.3, Denpasar, Bali.</h2>
+                    <br>
+                    <a class="flex" href="https://maps.app.goo.gl/3VLwJuq5K7MGCEc29"><i data-feather="map-pin"></i>Open map</a>
                 </div>
             </div>
             <div class="office-col">

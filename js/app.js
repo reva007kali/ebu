@@ -35,27 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 // navbar active class
 
-// navbar scrolled
-const navbar = document.querySelector(".navbar");
 
-let lastScrollY = window.scrollY;
-
-window.addEventListener("scroll", () => {
-  const currentScrollY = window.scrollY;
-
-  if (currentScrollY > lastScrollY && currentScrollY > 50) {
-    // Scrolling down
-    navbar.classList.add("hidden"); // Hide the navbar
-    navbar.classList.remove("visible");
-  } else {
-    // Scrolling up
-    navbar.classList.remove("hidden");
-    navbar.classList.add("visible"); // Show the navbar
-  }
-
-  // Update the last scroll position
-  lastScrollY = currentScrollY;
-});
 
 // slide up animation
 document.addEventListener("DOMContentLoaded", () => {

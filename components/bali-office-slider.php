@@ -1,8 +1,7 @@
 <style>
     .bali-swiper {
       width: 100%;
-      height: fit-content;
-      border-radius: 20px;
+      height: 100%;
     }
     .bali-slide {
       text-align: center;
@@ -14,7 +13,7 @@
     .bali-slide img {
       display: block;
       width: 100%;
-      height: 400px;
+      height: 100%;
       object-fit: cover;
     }
   </style>

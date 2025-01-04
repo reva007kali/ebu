@@ -30,31 +30,59 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- overview -->
     <section class="about-overview">
+        <!-- <div class="overview-gradient"></div> -->
         <div class="overview-row">
             <div class="overview-col animate">
-                <h1 class="heading2 text-third text-center">Corporate Overview</h1>
-                <p class="">At Equinox Bahari Utama, we specialize in delivering exceptional human
-                    resource solutions tailored to
-                    the
-                    maritime and cruise industries. Established with a vision to connect top-tier talent with global
-                    opportunities, our Cruise Department has become a trusted partner for one of the world's leading
-                    cruise
-                    lines.</p>
-
-                <p class=" ">Based in Indonesia, Equinox Bahari Utama leverages its strategic location
-                    and
-                    deep understanding of the local talent market to supply the cruise industry with exceptional crew
-                    members. Our operations adhere to international standards, ensuring that our candidates meet the
-                    rigorous demands of life at sea.</p>
-                <!-- <div class="overview-cta">
-                    <a class="btn" href="">Become a partner</a>
-                    <a class="btn" href="">Download our company profile</a>
-                </div> -->
+                <h1 class="heading1 text-primary">The <span class=" text-secondary">Equinox</span>
+                    <span class="text-third">Companies</span>
+                </h1>
+                <p class="">Founded in 2001, Equinox is a group of companies owned by PSU and include a leading fully
+                    licensed shipowner, ship manager, port agency and crewing manager in Indonesia providing services
+                    for international shipowners.
+                    Equinox offers end to end maritime solutions and services tailored to the specific requirements of
+                    its clients.
+                    <br>
+                    <br>Putting safety first, Equinox operates to International Standards servicing customers across the
+                    globe (from Japan to Singapore and from Norway to the USA).
+                    Equinox has earned its excellent reputation both internationally and in Indonesia as a quality
+                    shipowner and for its reliable shipping services.
+                </p>
                 <div class="overview-brands">
                     <img src="img/logo/logo1.png" alt="">
+                    <!-- <img src="img/logo/logo1.png" alt=""> -->
+                    <img src="img/assets/brands-logo/psu-logo.png" alt="">
+                    <!-- <img src="img/logo/logo1.png" alt=""> -->
+                </div>
+            </div>
+            <img src="img/ships/psu-1.jpg" alt="" class="overview-bg animate">
+
+        </div>
+    </section>
+    <!-- overview -->
+    <!-- overview -->
+    <section class="about-overview">
+        <!-- <div class="overview-gradient"></div> -->
+        <div class="overview-row">
+            <img src="img/assets/overview.png" alt="" class="overview-bg animate">
+            <div class="overview-col animate">
+                <h1 class="heading1 text-primary">Equinox <span class=" text-secondary">sentra</span>
+                    <span class="text-third">bahari</span>
+                </h1>
+                <p class="">We are committed to achieving the highest standards in all levels of our operations by
+                    regular audits and training of our employees. Particular emphasis is placed on providing a safe
+                    working environment and the consistent application of safe working practices to ensure: Safety of
+                    life
+                    <br>
+                    <br>Safety of cargo
+                    Safety of property and assets
+                    Protection and improvement of the environment
+
+                </p>
+                <div class="overview-brands">
                     <img src="img/logo/logo1.png" alt="">
-                    <img src="img/logo/logo1.png" alt="">
-                    <img src="img/logo/logo1.png" alt="">
+                    <!-- <img src="img/logo/logo1.png" alt=""> -->
+                    <img src="img/assets/brands-logo/psu-logo.png" alt="">
+                    <!-- <img src="img/logo/logo1.png" alt=""> -->
                 </div>
             </div>
         </div>
@@ -62,7 +90,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- overview -->
 
     <!-- company profile video -->
-    <div class="company-vid">
+    <div class="company-vid animate">
         <img src="img/assets/phone.png" alt="">
         <video controls muted poster="img/assets/equinox.jpg" src="img/video/ebu.mov"></video>
     </div>
@@ -74,26 +102,29 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         <div class="leader-row">
             <div class="leader-col1">
                 <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/3.jpg" alt="">
+                <img class="leader-image" src="img/team/TSCC_.jpg" alt="">
                 <div class="leader-info1">
-                    <h2 class="leader-name">Budi Santoso</h2>
-                    <h4 class="leader-position">Board of Director, Chairman</h4>
+                    <h2 class="leader-name">Timothy S.C. Cottew</h2>
+                    <h4 class="leader-position">Founder & Owner</h4>
+                    <a href="mailto:tsccottew@psu.co.id">tsccottew@psu.co.id</a>
                 </div>
             </div>
             <div class="leader-col1">
                 <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/1.jpg" alt="">
+                <img class="leader-image" src="img/team/IY_.jpg" alt="">
                 <div class="leader-info1">
-                    <h2 class="leader-name">Rina Kartika</h2>
-                    <h4 class="leader-position">Head of Finance</h4>
+                    <h2 class="leader-name">Indah Yulianti</h2>
+                    <h4 class="leader-position">Group HR, Corporate & Legal Director</h4>
+                    <a href="mailto:indah@psu.co.id">indah@psu.co.id</a>
                 </div>
             </div>
             <div class="leader-col1">
                 <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/2.jpg" alt="">
+                <img class="leader-image" src="img/team/AR_.jpg" alt="">
                 <div class="leader-info1">
-                    <h2 class="leader-name">Aditya Ramadhan</h2>
-                    <h4 class="leader-position">Managing Director</h4>
+                    <h2 class="leader-name">Ahmad Rizky</h2>
+                    <h4 class="leader-position">Group Strategic & Planning</h4>
+                    <a href="mailto:rizky@psu.co.id">rizky@psu.co.id</a>
                 </div>
             </div>
         </div>
@@ -101,23 +132,23 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- leader -->
     <!-- leader -->
     <section class="leader2">
-        <h1 class="heading1 text-center text-light">Cruise Division Leader</h1>
+        <h1 class="heading1 text-center text-primary">Cruise Division Leader</h1>
         <div class="leader-row">
             <div class="leader-col">
                 <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/4.jpg" alt="">
+                <img class="leader-image" src="img/team/ivan_.jpg" alt="">
                 <div class="leader-info">
-                    <h2 class="leader-name">Dewi Lestari</h2>
-                    <h4 class="leader-position">HR & Compliance Officer
-                    </h4>
+                    <h2 class="leader-name">Ivan Pereira</h2>
+                    <h4 class="leader-position">Cruise General Manager</h4>
+                    <a href="mailto:tsccottew@psu.co.id">tsccottew@psu.co.id</a>
                 </div>
             </div>
             <div class="leader-col">
                 <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/5.jpg" alt="">
+                <img class="leader-image" src="img/team/toar_.png" alt="">
                 <div class="leader-info">
-                    <h2 class="leader-name">Riko Wijaya</h2>
-                    <h4 class="leader-position">Marketing and Communications Head</h4>
+                    <h2 class="leader-name">Toar B Sumanti</h2>
+                    <h4 class="leader-position">Cruise Manager</h4>
                 </div>
             </div>
             <div class="leader-col">
@@ -128,7 +159,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                     <h4 class="leader-position">Training Coordinator</h4>
                 </div>
             </div>
-            <div class="leader-col">
+            <!-- <div class="leader-col">
                 <div class="leader-gradient"></div>
                 <img class="leader-image" src="img/team/7.jpg" alt="">
                 <div class="leader-info">
@@ -143,7 +174,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                     <h2 class="leader-name">Denny Kurniawan</h2>
                     <h4 class="leader-position">IT and Systems Manager</h4>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- leader -->
@@ -251,7 +282,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
 
 
-    <!-- our services -->
+    <!-- our licenses -->
     <div class="licenses">
         <h1 class="heading2 text-center text-primary">Our Licenses</h1>
         <div class="licenses-row">
@@ -265,65 +296,6 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <?php include 'components/licenses.php' ?>
     <!-- licenses -->
 
-
-
-    <!-- our offices -->
-    <section class="office">
-        <div class="office-heading">
-            <h1 class="heading2 text-primary">Our Office Location</h1>
-            <p class="para">Equinox Bahari Utama, a fully licensed crewing company in Indonesia, operates offices in
-                both Jakarta and
-                Bali, each offering unique advantages to seafarers and clients.</p>
-        </div>
-
-        <div class="office-row">
-            <div class="office-col">
-                <div class="office-content">
-                    <h1>Jakarta Office</h1>
-                    <h2><strong>Location:</strong> Globe Building, 4th-5th Floor, Jl. Warung Jati Barat Kav. 31-33,
-                        South Jakarta, 12740 Indonesia.</h2>
-                    <ul>
-                        <li><strong>Strategic Position:</strong> Situated in Indonesia's capital, the Jakarta office is
-                            at the heart of
-                            the nation's maritime industry, providing easy access to major shipping companies and
-                            regulatory bodies.</li>
-                        <li><strong>Comprehensive Services:</strong> As the head office, it offers a full range of
-                            services, including
-                            recruitment, training, and crew management, ensuring efficient operations and support for
-                            seafarers.</li>
-                        <li><strong>Professional Network:</strong> Proximity to various maritime organizations and
-                            institutions
-                            facilitates strong industry connections and opportunities for collaboration.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="office-col">
-                <?php include 'components/jakarta-office-slider.php' ?>
-            </div>
-        </div>
-        <div class="office-row">
-            <div class="office-col">
-                <div class="office-content">
-                    <h1>Bali Office</h1>
-                    <h2><strong>Location:</strong> Gedung MNC Vision Lt.3, Denpasar, Bali.</h2>
-                    <ul>
-                        <li><strong>Regional Accessibility:</strong> The Bali office caters to seafarers in the eastern
-                            regions of Indonesia, making it convenient for local applicants to access recruitment and
-                            training services.</li>
-                        <li><strong>Focused Recruitment:</strong> Specializes in conducting walk-in interviews and
-                            onboarding processes, streamlining the hiring experience for candidates.</li>
-                        <li><strong>Cultural Hub:</strong>Cultural Hub: Located in a major tourist destination, the Bali
-                            office benefits from a rich cultural environment, enhancing the hospitality training
-                            provided to cruise ship crew members.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="office-col">
-                <?php include 'components/bali-office-slider.php' ?>
-            </div>
-        </div>
-    </section>
-    <!-- our offices -->
 
 
     <!-- contact form -->
