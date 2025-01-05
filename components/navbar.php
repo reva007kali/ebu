@@ -1,15 +1,18 @@
-
-
+<?php
+// Get the current path from the URL
+$currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+?>
 <div class="navbar">
     <div class="navbar-logo">
         <a href="/"><img class="navbar-logo logo-l logo-round" src="img/logo/logo2.jpeg" alt=""></a>
     </div>
     <div class="navbar-menu">
-        <a class="navbar-link" href="/">Home</a>
-        <a class="navbar-link" href="/about">About us</a>
-        <a class="navbar-link" href="/jobs">Job Portal</a>
-        <a class="navbar-link" href="/crewing-services">Crewing Services</a>
-        <a class="navbar-link" href="/contact">Contact us</a>
+        <a class="navbar-link <?= $currentPath === '/' ? 'active' : '' ?>" href="/">Home</a>
+        <a class="navbar-link <?= $currentPath === '/about' ? 'active' : '' ?>" href="/about">About us</a>
+        <a class="navbar-link <?= $currentPath === '/jobs' ? 'active' : '' ?>" href="/jobs">Job Portal</a>
+        <a class="navbar-link <?= $currentPath === '/crewing-services' ? 'active' : '' ?>"
+            href="/crewing-services">Crewing Services</a>
+        <a class="navbar-link <?= $currentPath === '/contact' ? 'active' : '' ?>" href="/contact">Contact us</a>
     </div>
     <div class="navbar-extra">
         <?php include 'dm_button.php' ?>
