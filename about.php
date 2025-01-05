@@ -132,7 +132,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- leader -->
     <!-- leader -->
     <section class="leader2">
-        <h1 class="heading1 text-center text-primary">Cruise Division Leader</h1>
+        <h1 class="heading1 text-center text-light">Cruise Division Leader</h1>
         <div class="leader-row">
             <div class="leader-col">
                 <div class="leader-gradient"></div>

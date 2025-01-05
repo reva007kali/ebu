@@ -1247,7 +1247,7 @@ input[type="submit"]:hover {
   padding: 2rem;
   border-radius: 10px;
   overflow: hidden;
-  /* background-color: var(--primary); */
+  background-color: var(--third);
   min-height: 90vh;
 }
 .leader-row {
