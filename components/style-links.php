@@ -1,5 +1,5 @@
 <!-- <link rel="stylesheet" href="css/styles.css"> -->
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css?v=<?php echo time(); ?>">
 <link rel="stylesheet" href="css/mediaquery.css">
 <link rel="icon" href="img/logo/favicon.png" type="image/png" sizes="32x32">
 
