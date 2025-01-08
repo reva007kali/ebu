@@ -37,6 +37,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         <div class="intro-container">
             <div class="intro-col-1">
                 <h1 class="heading1">"We Help People Achieves Their Dreams"</span></h1>
+                <p>We help Indonesians achieve their dream jobs on cruise ships, providing access to global opportunities, personal and professional growth, and a pathway to a brighter and more prosperous future for themselves and their families.</p>
             </div>
             <div class="intro-col-2">
                 <img src="img/assets/svg/play-circle.svg" alt="">
@@ -105,6 +106,23 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         </div>
     </div>
     <!-- our services -->
+
+    <!-- what we do -->
+     <section class="wwd">
+        <h1 class="heading1 text-center text-primary">What We Do</h1>
+        <p class="text-primary text-center">We connect skilled seafarers and hospitality professionals with top opportunities through our Marine and Hotel Recruitment services, ensuring excellence for both candidates and employers.</p>
+        <div class="wwd-row">
+            <div class="wwd-col">
+                <img class="wwd-bg" src="img/crew/5.jpg" alt="">
+                <h2 class="heading2 text-light">Marine Recruitment</h2>
+            </div>
+            <div class="wwd-col">
+                <img class="wwd-bg" src="img/crew/2.jpg" alt="">
+                <h2 class="heading2 text-light">Hotel Recruitment</h2>
+            </div>
+        </div>
+     </section>
+    <!-- what we do -->
 
 
 

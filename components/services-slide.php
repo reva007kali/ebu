@@ -20,7 +20,7 @@
         height: 400px;
         border-radius: 10px;
     }
-    /* .services-slide:hover .services-gradient {
+    .services-slide:hover .services-gradient {
         top: 0;
         background: rgba(4, 33, 67, 0.87);
 
@@ -28,7 +28,7 @@
     .services-slide:hover .services-gradient p {
         opacity: 1;
 
-    } */
+    }
 
     .services-slide img {
         position: absolute;
@@ -45,9 +45,9 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         padding: 1rem 1.5rem;
-        top: 0;
+        top: 70%;
         left: 0;
         width: 100%;
         height: 100%;
@@ -66,7 +66,7 @@
     .services-gradient p {
         transition: 300ms ease;
         color: var(--light);
-        /* opacity: 0; */
+        opacity: 0;
     }
     .services-gradient a {
         color: var(--light);

@@ -89,6 +89,38 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     </section>
     <!-- overview -->
 
+    <!-- psu group -->
+     <section class="psu-group">
+        <h1 class="heading1 text-center text-primary">The PSU Group</h1>
+        <div class="psu-row">
+            <div class="psu-card">
+                <img src="img/logo/logo2.jpeg" alt="">
+                <div class="psu-card-content">
+                    <h2>Perusahaan Pelayaran Equinox</h2>
+                    <p>PT. Perusahaan Pelayaran Equinox was established in 2001 as an Indonesian national shipping...</p>
+                    <a href="https://equinoxshipping.co.id/company/ship-management-services/overview">Read More</a>
+                </div>
+            </div>
+            <div class="psu-card">
+                <img src="img/logo/logo2.jpeg" alt="">
+                <div class="psu-card-content">
+                    <h2>Equinox Bahari Utama</h2>
+                    <p>PT. Equinox Bahari Utama is a fully licensed crewing company that employs highly competent Indonesian crew...</p>
+                    <a href="https://equinoxshipping.co.id/company/ship-management-services/overview">Read More</a>
+                </div>
+            </div>
+            <div class="psu-card">
+                <img src="img/logo/logo2.jpeg" alt="">
+                <div class="psu-card-content">
+                    <h2>Equinox Sentra Bahari</h2>
+                    <p>PT. Equinox Sentra Bahari is one of Indonesia's agency companies in the port and shipping sector,...</p>
+                    <a href="https://equinoxshipping.co.id/company/shipping-agency-services/overview">Read More</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- psu group -->
+
     <!-- company profile video -->
     <div class="company-vid animate">
         <img src="img/assets/phone.png" alt="">

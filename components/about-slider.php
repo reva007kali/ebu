@@ -8,7 +8,9 @@
         background-position: center;
         background-size: cover;
     }
-
+    .about-content h1 {
+        font-size: 4rem;
+    }
     .prev {
         position: absolute;
         left: -35px;
@@ -49,17 +51,17 @@
     <div class="swiper-wrapper about-wrapper">
 
         <div class="swiper-slide about-slide">
-            <section class="about" style="background: url(img/offices/jakarta-office.jpg) center/cover no-repeat;">
+            <section class="about" style="background: url(img/offices/jakarta3.jpg) center/cover no-repeat;">
                 <div class="about-gradient"></div>
                 <!-- <img class="about-bg" src="img/crew/chef.png" alt=""> -->
                 <div class="about-content animate">
                     <h1 class="heading1 text-light">Equinox <br><span class="text-secondary">Shipping</span> <br><span class="text-third">Group</span> </h1>
                     <p class="text-light">Equinox Shipping Group was established in 2001 as an Indonesian national shipping company. Our team of Indonesian and expatriate management and staff bring with us a wealth of local and international experience in all aspects of shipping.
                     </p>
-                    <!-- <div class="about-cta">
+                    <div class="about-cta">
                         <a href="">Apply for a job</a>
                         <a href="">Partner with us</a>
-                    </div> -->
+                    </div>
                     <div class="about-brands">
                         <img src="img/logo/logo1.png" alt="">
                         <img class="img2" src="img/assets/brands-logo/pesona-sentra-utama.png" alt="">
@@ -75,7 +77,7 @@
                 <div class="about-gradient"></div>
                 <!-- <img class="about-bg" src="img/crew/chef.png" alt=""> -->
                 <div class="about-content">
-                    <h1 class="heading1 text-light">Equinox <span class="text-secondary">Bahari</span> <span class="text-third">Utama</span></h1>
+                    <h1 class="heading1 text-light">Equinox <br><span class="text-secondary">Bahari</span> <br><span class="text-third">Utama</span></h1>
                     <p class="text-light">Fully licensed crewing company that employs highly competent Indonesian crew members to work in well-known international tankers, bulk, and cruise ship companies throughout the world.
                     </p>
                     <!-- <div class="about-cta">

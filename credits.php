@@ -29,12 +29,28 @@
         created by Freepik - Flaticon</a>
     <a href="https://www.flaticon.com/free-animated-icons/travel-destination"
         title="travel destination animated icons">Travel destination animated icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-animated-icons/achievement" title="achievement animated icons">Achievement animated icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-animated-icons/integrity" title="integrity animated icons">Integrity animated icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-animated-icons/collaboration" title="collaboration animated icons">Collaboration animated icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-animated-icons/innovation" title="innovation animated icons">Innovation animated icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-animated-icons/diversity" title="diversity animated icons">Diversity animated icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-animated-icons/security" title="security animated icons">Security animated icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-animated-icons/achievement" title="achievement animated icons">Achievement
+        animated icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-animated-icons/integrity" title="integrity animated icons">Integrity animated
+        icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-animated-icons/collaboration"
+        title="collaboration animated icons">Collaboration animated icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-animated-icons/innovation" title="innovation animated icons">Innovation
+        animated icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-animated-icons/diversity" title="diversity animated icons">Diversity animated
+        icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-animated-icons/security" title="security animated icons">Security animated
+        icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons
+        created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Bogdan Rosu
+        - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik -
+        Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/tik-tok" title="tik tok icons">Tik tok icons created by Freepik -
+        Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Md Tanvirul
+        Haque - Flaticon</a>
 
 
 

@@ -51,7 +51,8 @@
         <div class="swiper-slide hero-slide">
             <section class="hero" style="background: url(img/ships/wonderots2.jpg) center/cover no-repeat;">
                 <div class="hero-gradient"></div>
-                <!-- <img class="hero-bg" src="img/crew/chef.png" alt=""> -->
+                <h1 class="pt-ebu heading1 text-light">PT.EQUINOX <span class="text-third">BAHARI UTAMA</span> <span class="text-secondary">CRUISE</span></h1>
+                <!-- <h1 class="pt-ebu heading1 text-light">PT.EQUINOX <br><span class="text-third">BAHARI UTAMA</span> <br><span class="text-secondary">CRUISE</span></h1> -->
                 <div class="hero-content">
                     <h1 class="heading1 text-light">More than a job,<br><span class="text-third">it’s a future</span></h1>
                     <p class="text-light"><strong>Equinox Bahari Utama Cruise</strong> is the official
@@ -119,7 +120,7 @@
         spaceBetween: 30,
         effect: "fade",
         autoplay: {
-            delay: 4000,
+            delay: 8000,
             disableOnInteraction: false,
         },
         navigation: {

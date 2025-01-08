@@ -75,7 +75,7 @@
 
   /* font size and line height */
   --fs-xl: clamp(3rem, 8vw, 7rem);
-  --fs-m: clamp(3rem, 8vw, 4rem);
+  --fs-m: clamp(3rem, 8vw, 3rem);
   --ls: 1;
 }
 
@@ -420,19 +420,29 @@ a {
   display: none;
   font-size: 20px;
 }
+.sm {
+  display: flex;
+  margin-right: 20px;
+}
+.sm a {
+  margin: 8px;
+}
+.sm a:hover {
+  transform: scale(1.06);
+}
 /* Navbar */
 
 /* hero section */
 .hero {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
   border-radius: var(--border-radius);
-  padding-inline: 4rem;
+  padding: 2rem;
   margin-top: 80px;
   margin-inline: 2rem;
   height: 85svh;
@@ -440,7 +450,7 @@ a {
 .hero-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
   gap: 20px;
   width: 60%;
@@ -452,17 +462,23 @@ a {
   font-size: 20px;
   opacity: 0.8;
 }
+.pt-ebu {
+  position: absolute;
+  font-size: 40px;
+  bottom: 2rem;
+  right: 2rem;
+}
 
 .hero-cta {
   display: flex;
-  margin-top: 1rem;
+  margin-top: .5rem;
   gap: 1rem;
 }
 .hero-cta a {
   display: block;
   background-color: var(--third);
   color: var(--light);
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   padding: 0.5rem 1.2rem;
   border-radius: 10px;
@@ -562,20 +578,26 @@ a {
 }
 
 .intro-col-1 {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 2rem;
   min-width: 400px;
-  place-content: center;
   box-shadow: var(--shadow-sm);
   border-radius: var(--border-radius);
   background: url(../img/assets/ocean.jpg) center/cover no-repeat;
 }
 .intro-col-1 h1 {
-  padding: 2rem;
   font-size: 50px;
   /* line-height: 20px; */
   font-weight: 900;
   text-transform: uppercase;
   color: var(--light);
+}
+.intro-col-1 p {
+  color: var(--light);
+  font-size: 22px;
 }
 .intro-col-2 {
   display: flex;
@@ -583,7 +605,7 @@ a {
   align-items: center;
   position: relative;
   padding: 1rem;
-  min-height: 600px;
+  min-height: 500px;
   background: url(../img/crew/tepanyaki1.jpg) center/cover no-repeat;
   border-radius: var(--border-radius);
   z-index: 3;
@@ -756,6 +778,47 @@ a {
   filter: brightness(200%);
 }
 /* official hiring partner */
+
+/* what we do  */
+.wwd {
+  padding-bottom: 2rem;
+}
+.wwd p {
+  font-size: 18px;
+  max-width: 80%;
+  margin-inline: auto;
+}
+.wwd-row {
+  display: flex;
+  margin: 2rem;
+  gap: 2rem;
+}
+.wwd-col {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: 500px;
+  border-radius: var(--border-radius);
+}
+.wwd-col h2 {
+  padding:1rem 2rem;
+  width: 100%;
+  display: block;
+  background-color: var(--primary);
+  border-bottom: 10px solid var(--third);
+}
+.wwd-bg {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+/* what we do  */
 
 /* testimonial */
 
@@ -1032,7 +1095,7 @@ input[type="submit"]:hover {
 /* about */
 .about {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   /* background: url(../img/ships/Royal-Caribbean-Wonder-of-the-Seas_1.webp); */
   background-size: cover;
@@ -1063,14 +1126,13 @@ input[type="submit"]:hover {
 
 .about-cta {
   display: flex;
-  margin-top: 1rem;
   gap: 1rem;
 }
 .about-cta a {
   display: block;
   background-color: var(--third);
   color: var(--light);
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   padding: 0.5rem 1.2rem;
   border-radius: 10px;
@@ -1085,8 +1147,8 @@ input[type="submit"]:hover {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     135deg,
-    rgba(0, 8, 47, 0.914) 30%,
-    rgba(0, 212, 255, 0) 100%
+    rgba(0, 8, 47, 0.914) 10%,
+    rgba(0, 212, 255, 0) 50%
   );
   top: 0;
   left: 0;
@@ -1145,7 +1207,7 @@ input[type="submit"]:hover {
 .overview-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: ; */
   gap: 2rem;
   z-index: 3;
 }
@@ -1190,6 +1252,58 @@ input[type="submit"]:hover {
 }
 
 /* overview */
+
+/* psu group */
+.psu-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+.psu-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem;
+}
+.psu-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 350px;
+  height: 380px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-sm);
+}
+.psu-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.psu-card-content h2 {
+  font-size: 18px;
+}
+.psu-card-content a {
+  color: white;
+  padding: 06px 20px;
+  background-color: var(--primary);
+  width: fit-content;
+  border-radius: var(--border-radius);
+}
+.psu-card-content a:hover {
+  background-color: var(--third);
+}
+.psu-card img {
+  width: 150px;
+}
+/* psu group */
 
 /* profile video */
 .company-vid {

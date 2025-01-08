@@ -14,6 +14,13 @@ $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
             href="/crewing-services">Crewing Services</a>
         <a class="navbar-link <?= $currentPath === '/contact' ? 'active' : '' ?>" href="/contact">Contact us</a>
     </div>
+    <div class="sm">
+        <a href=""><img src="img/icon/instagram.png" alt=""></a>
+        <a href=""><img src="img/icon/facebook.png" alt=""></a>
+        <a href=""><img src="img/icon/linkedin.png" alt=""></a>
+        <a href=""><img src="img/icon/tiktok.png" alt=""></a>
+        <a href=""><img src="img/icon/youtube.png" alt=""></a>
+    </div>
     <div class="navbar-extra">
         <?php include 'dm_button.php' ?>
     </div>
