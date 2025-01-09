@@ -13,6 +13,7 @@ $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         <a class="navbar-link <?= $currentPath === '/crewing-services' ? 'active' : '' ?>"
             href="/crewing-services">Crewing Services</a>
         <a class="navbar-link <?= $currentPath === '/contact' ? 'active' : '' ?>" href="/contact">Contact us</a>
+        <a class="navbar-link <?= $currentPath === '/contact' ? 'active' : '' ?>" href="/information">Information</a>
     </div>
     <div class="sm">
         <a href=""><img src="img/icon/instagram.png" alt=""></a>

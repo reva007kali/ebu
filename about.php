@@ -90,14 +90,15 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- overview -->
 
     <!-- psu group -->
-     <section class="psu-group">
-        <h1 class="heading1 text-center text-primary">The PSU Group</h1>
+    <section class="psu-group">
+        <h1 class="heading1 text-center text-light">The PSU Group</h1>
         <div class="psu-row">
             <div class="psu-card">
                 <img src="img/logo/logo2.jpeg" alt="">
                 <div class="psu-card-content">
                     <h2>Perusahaan Pelayaran Equinox</h2>
-                    <p>PT. Perusahaan Pelayaran Equinox was established in 2001 as an Indonesian national shipping...</p>
+                    <p>PT. Perusahaan Pelayaran Equinox was established in 2001 as an Indonesian national shipping...
+                    </p>
                     <a href="https://equinoxshipping.co.id/company/ship-management-services/overview">Read More</a>
                 </div>
             </div>
@@ -105,7 +106,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <img src="img/logo/logo2.jpeg" alt="">
                 <div class="psu-card-content">
                     <h2>Equinox Bahari Utama</h2>
-                    <p>PT. Equinox Bahari Utama is a fully licensed crewing company that employs highly competent Indonesian crew...</p>
+                    <p>PT. Equinox Bahari Utama is a fully licensed crewing company that employs highly competent
+                        Indonesian crew...</p>
                     <a href="https://equinoxshipping.co.id/company/ship-management-services/overview">Read More</a>
                 </div>
             </div>
@@ -113,12 +115,13 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <img src="img/logo/logo2.jpeg" alt="">
                 <div class="psu-card-content">
                     <h2>Equinox Sentra Bahari</h2>
-                    <p>PT. Equinox Sentra Bahari is one of Indonesia's agency companies in the port and shipping sector,...</p>
+                    <p>PT. Equinox Sentra Bahari is one of Indonesia's agency companies in the port and shipping
+                        sector,...</p>
                     <a href="https://equinoxshipping.co.id/company/shipping-agency-services/overview">Read More</a>
                 </div>
             </div>
         </div>
-     </section>
+    </section>
     <!-- psu group -->
 
     <!-- company profile video -->
@@ -128,9 +131,63 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     </div>
     <!-- company profile video -->
 
+    <!-- milestone -->
+    <section class="milestone">
+        <img class="milestone-bg" src="img/ships/3.jpg" alt="">
+        <h1 class="text-light text-center heading1">Our Milestone</h1>
+        <div class="milestone-row">
+            <div class="milestone-card">
+                <h1>2019</h1>
+                <p>Become the hiring partner of Royal Caribbean Group</p>
+                <div class="milestone-bullet-bottom"></div>
+            </div>
+            <div class="milestone-empty"></div>
+            <div class="milestone-card">
+                <h1>2020</h1>
+                <p>We Deployed for a total <strong>3100</strong> Crew Members</p>
+                <div class="milestone-bullet-bottom"></div>
+            </div>
+            <div class="milestone-empty"></div>
+            <div class="milestone-card">
+                <h1>2021</h1>
+                <p>We Deployed for a total <strong>2700</strong> Crew Members</p>
+                <div class="milestone-bullet-bottom"></div>
+                
+            </div>
+            <div class="milestone-empty"></div>
+        </div>
+        <div class="milestone-line">
+
+        </div>
+        <div class="milestone-row2">
+            <div class="milestone-empty"></div>
+            <div class="milestone-card">
+                <h1>2022</h1>
+                <p>We Deployed for a total <strong>3400</strong> Crew Members</p>
+                <div class="milestone-bullet-top"></div>
+            </div>
+            <div class="milestone-empty"></div>
+            <div class="milestone-card">
+                <h1>2023</h1>
+                <p>We Deployed for a total <strong>3770</strong> Crew Members</p>
+                <div class="milestone-bullet-top"></div>
+            </div>
+            <div class="milestone-empty"></div>
+            <div class="milestone-card">
+                <h1>2024</h1>
+                <p>We Deployed for a total 3200 Crew Members</p>
+                <div class="milestone-bullet-top"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- milestone -->
+
+
+
     <!-- leader -->
     <section class="leader">
-        <h1 class="heading1 text-center text-light">Board of Director</h1>
+        <h1 class="heading1 text-center text-third">Board of Director</h1>
         <div class="leader-row">
             <div class="leader-col1">
                 <div class="leader-gradient"></div>
@@ -162,33 +219,68 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         </div>
     </section>
     <!-- leader -->
+
+    <!-- ivan pereira -->
+    <section class="ivan">
+        <!-- <h1 class="heading2 text-center text-primary">Cruise Department General Manager</h1> -->
+        <div class="ivan-row">
+            <img src="img/team/ivan_.jpg" alt="">
+            <div class="ivan-col">
+                <h1 class="heading2 text-light">Ivan Pereira</h1>
+                <h2 class="text-light">Cruise Department General Manager</h2>
+                <p> With 25 years in the cruise industry, including 15 years in food service onboard Royal Caribbean
+                    Group (RCG) ships, I have extensive experience in talent acquisition. <br><br>My roles have included
+                    serving
+                    as a Lead Trainer, Global Recruiter for RCG, and Cruise Department Manager for RCG’s official hiring
+                    partner in Indonesia. I have also headed the cruise department for MSC Cruises, Explora Journeys,
+                    and Scylla AG River
+                    Cruises hiring partner in Indonesia. <br><br>My expertise spans managing high-volume hiring
+                    processes, from
+                    sourcing to deploying high-quality candidates onboard.
+                    Additionally, Iam capable in strategic planning to ensure efficient and effective recruitment
+                    operations
+                    for contemporary, luxury, and river cruise lines. My comprehensive understanding of the industry
+                    allows me to identify and recruit top talent.</p>
+                <a href="https://www.linkedin.com/in/ivan-pereira-4456a5196/"><i data-feather="linkedin"></i>Visit
+                    LinkedIn</a>
+            </div>
+        </div>
+    </section>
+    <!-- ivan pereira -->
+
     <!-- leader -->
     <section class="leader2">
-        <h1 class="heading1 text-center text-light">Cruise Division Leader</h1>
+        <h1 class="heading1 text-center text-light">Cruise Department Leader</h1>
         <div class="leader-row">
-            <div class="leader-col">
-                <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/ivan_.jpg" alt="">
-                <div class="leader-info">
-                    <h2 class="leader-name">Ivan Pereira</h2>
-                    <h4 class="leader-position">Cruise General Manager</h4>
-                    <a href="mailto:tsccottew@psu.co.id">tsccottew@psu.co.id</a>
-                </div>
-            </div>
             <div class="leader-col">
                 <div class="leader-gradient"></div>
                 <img class="leader-image" src="img/team/toar_.png" alt="">
                 <div class="leader-info">
                     <h2 class="leader-name">Toar B Sumanti</h2>
-                    <h4 class="leader-position">Cruise Manager</h4>
+                    <h4 class="leader-position">Cruise Department Manager</h4>
+                    <a href="https://www.linkedin.com/in/toar-sumanti-62226510a/"><i data-feather="linkedin"></i>Visit
+                        LinkedIn</a>
                 </div>
             </div>
             <div class="leader-col">
                 <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/6.jpg" alt="">
+                <img class="leader-image" src="img/team/agni.jpeg" alt="">
                 <div class="leader-info">
-                    <h2 class="leader-name">Siti Nurhaliza </h2>
-                    <h4 class="leader-position">Training Coordinator</h4>
+                    <h2 class="leader-name">Agni Aditya</h2>
+                    <h4 class="leader-position">Onboarding Section Head</h4>
+                    <a href="https://www.linkedin.com/in/agni-aditya-bab67819a/"><i data-feather="linkedin"></i>Visit
+                        LinkedIn</a>
+                </div>
+            </div>
+            <div class="leader-col">
+                <div class="leader-gradient"></div>
+                <img class="leader-image" src="img/team/raissas.jpeg" alt="">
+                <div class="leader-info">
+                    <h2 class="leader-name">Raissa</h2>
+                    <h4 class="leader-position">Recruitment Section Head
+                    </h4>
+                    <a href="https://www.linkedin.com/in/raissa-hummaira-643aa7141/"><i
+                            data-feather="linkedin"></i>Visit LinkedIn</a>
                 </div>
             </div>
             <!-- <div class="leader-col">
@@ -221,10 +313,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <!-- <img src="img/ships/wonderots.webp" alt=""> -->
                 <div class="vision-content text-color">
                     <h2 class="heading1 text-light">Our Vision</h2>
-                    <p class="text-light">"To be the leading and most trusted recruitment partner for global maritime
-                        and hospitality
-                        industries, empowering Indonesian talent to excel on the international stage while upholding the
-                        highest standards of professionalism, integrity, and sustainability."</p>
+                    <p class="text-light">"We strive to be amongst the leading Ship Managers in South-East Asia by
+                        2027."</p>
                 </div>
             </div>
         </div>
@@ -234,11 +324,14 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <div class="vision-content text-color">
                     <h2 class="heading1 text-light">Our Mission</h2>
                     <ul>
-                        <li>Empower Indonesian talent for global maritime and hospitality industries.</li>
-                        <li>Deliver excellence in recruitment, training, and placement.</li>
-                        <li>Build sustainable partnerships with international organizations.</li>
-                        <li>Operate ethically, prioritizing candidate welfare and rights.</li>
-                        <li>Innovate and improve recruitment processes with technology.</li>
+                        <li>We aim to continue to build long term collaboration with our clients through trust and
+                            confidence so as to ensure sustainable growth through efficient, safe operations centered
+                            around HSSE excellence.</li>
+                        <li><strong>HSSE excellence</strong> is a commitment to continuous improvement, proactive risk
+                            management, adherence to industry best practices, compliance with relevant regulations, and
+                            a strong safety culture that involves all levels of the organization. We aim to create a
+                            workplace where the health and well-being of individuals are paramount, and environmental
+                            sustainability is a core consideration in all operations.</li>
                     </ul>
                 </div>
             </div>

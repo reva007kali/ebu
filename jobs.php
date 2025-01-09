@@ -35,11 +35,15 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- latest job opening -->
     <div class="job-opening">
-        <a class="all-jobs" href="">See All Jobs</a>
+        <a class="all-jobs" href="https://jobs.equinoxshipping.co.id/cruise">See All Jobs</a>
         <h1 class="heading2 text-primary text-center">Latest Job Opening</h1>
         <?php include 'components/job-opening.php' ?>
     </div>
     <!-- latest job opening -->
+
+    <!-- allert -->
+     
+    <!-- allert -->
 
 
 

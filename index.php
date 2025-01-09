@@ -6,6 +6,7 @@ $routes = [
     '/contact' => 'contact.php',
     '/jobs' => 'jobs.php',
     '/crewing-services' => 'crewing-services.php',
+    '/information' => 'information.php',
     
 ];
 

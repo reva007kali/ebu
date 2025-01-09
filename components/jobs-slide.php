@@ -53,7 +53,7 @@
                 <div class="jobs-gradient"></div>
                 <!-- <img class="jobs-bg" src="img/crew/chef.png" alt=""> -->
                 <div class="jobs-content">
-                    <h1 class="heading1 text-light">Global Opportunities</span></h1>
+                    <h1 class="heading1 text-light">NO Recruitment fee, no deployment fee</span></h1>
                     <p class="text-light">Join our network to access job openings across the globe, from land-based industries to prestigious cruise lines.
                     </p>
                     <div class="jobs-cta">
@@ -66,13 +66,13 @@
         </div>
 
         <div class="swiper-slide jobs-slide">
-            <section class="jobs" style="background: url(img/ships/coco.jpg) center/cover no-repeat;">
+            <section class="jobs" style="background: url(img/ships/4.jpg) center/cover no-repeat;">
                 <div class="jobs-gradient"></div>
                 <div class="jobs-content">
-                    <h1 class="heading1 text-light">"Building Careers with Integrity"</h1>
-                    <p class="text-light">Partner with a trusted agency that values your aspirations, providing transparent, ethical, and reliable placement services.</p>
+                    <h1 class="heading1 text-light">"inform us when you feel something is not right!"</h1>
+                    <p class="text-light">If you encounter any unethical practices during the recruitment process, please do not hesitate to report it. This number is here to assist you in addressing any concerns or issues, ensuring transparency, fairness, and a safe recruitment experience for everyone involved. Your voice matters, and we are committed to maintaining the highest standards of integrity.</p>
                     <div class="jobs-cta">
-                        <a href="">Apply for a job</a>
+                        <a href="https://api.whatsapp.com/send/?phone=628112029969&text&type=phone_number&app_absent=0">Call our Aware Number</a>
                     </div>
                 </div>
 
@@ -110,7 +110,7 @@
         spaceBetween: 30,
         effect: "fade",
         autoplay: {
-            delay: 4000,
+            delay: 8000,
             disableOnInteraction: false,
         },
         navigation: {
