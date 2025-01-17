@@ -13,14 +13,14 @@ $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         <a class="navbar-link <?= $currentPath === '/crewing-services' ? 'active' : '' ?>"
             href="/crewing-services">Crewing Services</a>
         <a class="navbar-link <?= $currentPath === '/contact' ? 'active' : '' ?>" href="/contact">Contact us</a>
-        <a class="navbar-link <?= $currentPath === '/contact' ? 'active' : '' ?>" href="/information">Information</a>
+        <a class="navbar-link <?= $currentPath === '/information' ? 'active' : '' ?>" href="/information">Information</a>
     </div>
     <div class="sm">
-        <a href=""><img src="img/icon/instagram.png" alt=""></a>
-        <a href=""><img src="img/icon/facebook.png" alt=""></a>
-        <a href=""><img src="img/icon/linkedin.png" alt=""></a>
-        <a href=""><img src="img/icon/tiktok.png" alt=""></a>
-        <a href=""><img src="img/icon/youtube.png" alt=""></a>
+        <a href=""><img src="img/icon/instagram2.png" alt=""></a>
+        <a href=""><img src="img/icon/facebook2.png" alt=""></a>
+        <a href=""><img src="img/icon/linkedin2.png" alt=""></a>
+        <a href=""><img src="img/icon/tiktok2.png" alt=""></a>
+        <a href=""><img src="img/icon/youtube2.png" alt=""></a>
     </div>
     <div class="navbar-extra">
         <?php include 'dm_button.php' ?>

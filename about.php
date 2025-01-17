@@ -54,7 +54,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                     <!-- <img src="img/logo/logo1.png" alt=""> -->
                 </div>
             </div>
-            <img src="img/ships/psu-1.jpg" alt="" class="overview-bg animate">
+            <img src="img/assets/test4.png" alt="" class="overview-bg animate">
 
         </div>
     </section>
@@ -63,7 +63,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <section class="about-overview">
         <!-- <div class="overview-gradient"></div> -->
         <div class="overview-row">
-            <img src="img/assets/overview.png" alt="" class="overview-bg animate">
+            <img src="img/ships/psu-1.jpg" alt="" class="overview-bg animate">
             <div class="overview-col animate">
                 <h1 class="heading1 text-primary">Equinox <span class=" text-secondary">sentra</span>
                     <span class="text-third">bahari</span>
@@ -91,12 +91,12 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- psu group -->
     <section class="psu-group">
-        <h1 class="heading1 text-center text-light">The PSU Group</h1>
+        <h1 class="heading1 text-center text-light">Equinox Shipping Group</h1>
         <div class="psu-row">
             <div class="psu-card">
                 <img src="img/logo/logo2.jpeg" alt="">
                 <div class="psu-card-content">
-                    <h2>Perusahaan Pelayaran Equinox</h2>
+                    <h2>Ship Management Services</h2>
                     <p>PT. Perusahaan Pelayaran Equinox was established in 2001 as an Indonesian national shipping...
                     </p>
                     <a href="https://equinoxshipping.co.id/company/ship-management-services/overview">Read More</a>
@@ -105,7 +105,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
             <div class="psu-card">
                 <img src="img/logo/logo2.jpeg" alt="">
                 <div class="psu-card-content">
-                    <h2>Equinox Bahari Utama</h2>
+                    <h2>Crew Management Services</h2>
                     <p>PT. Equinox Bahari Utama is a fully licensed crewing company that employs highly competent
                         Indonesian crew...</p>
                     <a href="https://equinoxshipping.co.id/company/ship-management-services/overview">Read More</a>

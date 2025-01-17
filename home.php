@@ -36,8 +36,10 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <div class="intro">
         <div class="intro-container">
             <div class="intro-col-1">
-                <h1 class="heading1">"We Help People Achieves Their Dreams"</span></h1>
-                <p>We help Indonesians achieve their dream jobs on cruise ships, providing access to global opportunities, personal and professional growth, and a pathway to a brighter and more prosperous future for themselves and their families.</p>
+                <h1 class="heading1">"We Help People Achieve Their Dreams"</span></h1>
+                <p>We help Indonesians achieve their dream jobs on cruise ships, providing access to global
+                    opportunities, personal and professional growth, and a pathway to a brighter and more prosperous
+                    future for themselves and their families.</p>
             </div>
             <div class="intro-col-2">
                 <img src="img/assets/svg/play-circle.svg" alt="">
@@ -108,23 +110,96 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- our services -->
 
     <!-- what we do -->
-     <section class="wwd">
+    <section class="wwd">
         <h1 class="heading1 text-center text-primary">What We Do</h1>
-        <p class="text-primary text-center">We connect skilled seafarers and hospitality professionals with top opportunities through our Marine and Hotel Recruitment services, ensuring excellence for both candidates and employers.</p>
+        <!-- <p class="text-primary text-center">We connect skilled seafarers and hospitality professionals with top
+            opportunities through our Marine and Hotel Recruitment services, ensuring excellence for both candidates and
+            employers.</p> -->
         <div class="wwd-row">
-            <div class="wwd-col">
-                <img class="wwd-bg" src="img/crew/5.jpg" alt="">
-                <h2 class="heading2 text-light">Marine Recruitment</h2>
-            </div>
+
             <div class="wwd-col">
                 <img class="wwd-bg" src="img/crew/2.jpg" alt="">
                 <h2 class="heading2 text-light">Hotel Recruitment</h2>
             </div>
+            <div class="wwd-col2">
+                <h1 class="text-primary heading2">Hotel Position:</h1>
+                <div class="wwd-row">
+                    <ul>
+                        <h2 class="text-primary">Culinary</h2>
+                        <li>Chef De Partie</li>
+                        <li>Commis Cook</li>
+                        <li>Teppanyaki Chef</li>
+                        <li>Executive Chef</li>
+                        <li>Sous Chef</li>
+                        <li>Galley Utility</li>
+                    </ul>
+                    <ul>
+                        <h2 class="text-primary">Food & Beverage</h2>
+                        <li>Assistant Waiter</li>
+                        <li>Waiter</li>
+                        <li>Restaurant Attendant</li>
+                        <li>Assistant Maitre D</li>
+                        <li>Restaurant Services</li>
+                        <li>Sommelier</li>
+                    </ul>
+                    <ul>
+                        <h2 class="text-primary">Housekeeping</h2>
+                        <li>Stateroom Attendant</li>
+                        <li>Public Area Attendant</li>
+                        <li>Deck Attendant</li>
+                        <li>Housekeeping Supervisor</li>
+                        <li>Laundry Master</li>
+                        <li>Assistant Laundry Master</li>
+                        <li>Laundry Attendant</li>
+                    </ul>
+                </div>
+                <a class="cta-btn" href="">See All Position</a>
+            </div>
         </div>
-     </section>
+        <div class="wwd-row">
+
+            <div class="wwd-col2">
+                <h1 class="text-primary heading2">Marine Position:</h1>
+                <div class="wwd-row">
+                    <ul>
+                        <h2 class="text-primary">Deck</h2>
+                        <li>Chief Officer - Deck</li>
+                        <li>Environmental Officer</li>
+                        <li>3rd Officer</li>
+                        <li>Sailor O/S</li>
+                        <li>Deck Cadet</li>
+                        <li>Sailor O/S</li>
+                    </ul>
+                    <ul>
+                        <h2 class="text-primary">Electrical</h2>
+                        <li>4th Electrical Engineer</li>
+                        <li>Electrical Engineer</li>
+                        <li>2nd Electronics Engineer</li>
+                        <li>Assistant Maitre D</li>
+                        <li>PL Assistant Electronic Officer</li>
+                        <li>Assistant Electrician</li>
+                    </ul>
+                    <ul>
+                        <h2 class="text-primary">Engine</h2>
+                        <li>Fitter A/C</li>
+                        <li>Fitter Engine</li>
+                        <li>Wipers</li>
+                        <li>Junior Engine Man</li>
+                        <li>Incinerator Operator</li>
+                        <li>Engine Foreman</li>
+                        <li>Mechanic</li>
+                        <li>Motorman</li>
+                    </ul>
+                </div>
+                <a class="cta-btn" href="">See All Position</a>
+            </div>
+            <div class="wwd-col">
+                <img class="wwd-bg" src="img/crew/marine.jpg" alt="">
+                <h2 class="heading2 text-light">Marine Recruitment</h2>
+            </div>
+        </div>
+    </section>
     <!-- what we do -->
-
-
 
 
     <!-- testimonial -->
@@ -136,7 +211,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- our offices -->
     <section class="office">
         <div class="office-heading">
-            <h1 class="heading2 text-primary">Our Office Location</h1>
+            <h1 class="heading1 text-secondary">Our Office Location</h1>
             <!-- <p class="para">Equinox Bahari Utama, a fully licensed crewing company in Indonesia, operates offices in both Jakarta and
                 Bali, each offering unique advantages to seafarers and clients.</p> -->
         </div>
@@ -163,7 +238,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                         Barat Kav. 31-33,
                         South Jakarta, 12740 Indonesia.</h2>
                     <br>
-                    <a class="flex" href="https://maps.app.goo.gl/2ZiDaNgheY4t8EkH6"><i data-feather="map-pin"></i>Open map</a>
+                    <a class="flex" href="https://maps.app.goo.gl/2ZiDaNgheY4t8EkH6"><i data-feather="map-pin"></i>Open
+                        map</a>
                 </div>
             </div>
             <div class="office-col">
@@ -176,19 +252,22 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                     <h1>Bali Office</h1>
 
                     <ul>
-                        <li><strong>Regional Accessibility:</strong><br>The Bali office caters to seafarers in the eastern
+                        <li><strong>Regional Accessibility:</strong><br>The Bali office caters to seafarers in the
+                            eastern
                             regions of Indonesia, making it convenient for local applicants to access recruitment and
                             training services.</li>
                         <li><strong>Focused Recruitment:</strong> <br>Specializes in conducting walk-in interviews and
                             onboarding processes, streamlining the hiring experience for candidates.</li>
-                        <li><strong>Cultural Hub:</strong><br>Cultural Hub: Located in a major tourist destination, the Bali
+                        <li><strong>Cultural Hub:</strong><br>Cultural Hub: Located in a major tourist destination, the
+                            Bali
                             office benefits from a rich cultural environment, enhancing the hospitality training
                             provided to cruise ship crew members.</li>
                     </ul>
 
                     <h2><strong class="text-third">Location:</strong> Gedung MNC Vision Lt.3, Denpasar, Bali.</h2>
                     <br>
-                    <a class="flex" href="https://maps.app.goo.gl/3VLwJuq5K7MGCEc29"><i data-feather="map-pin"></i>Open map</a>
+                    <a class="flex" href="https://maps.app.goo.gl/3VLwJuq5K7MGCEc29"><i data-feather="map-pin"></i>Open
+                        map</a>
                 </div>
             </div>
             <div class="office-col">
@@ -201,7 +280,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- latest news -->
     <section class="news">
-        <h1 class="heading2 text-third">Our latest news</h1>
+        <h1 class="heading1 text-third">Our Blog</h1>
         <?php include 'components/news-slider.php' ?>
 
     </section>
@@ -209,28 +288,34 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- contact form -->
     <section class="contact-form">
-        <h1 class="heading2 text-center text-light">CONTACT US</h1>
+        <div class="contact-form-gradient"></div>
+        <h1 class="heading1 text-center text-light">Contact us</h1>
         <div class="contact-form-container">
-            <form action="/action_page.php">
-                <label for="fname">Full Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <!-- Left Column -->
+            <div class="left-column">
+                <h3>Contact Information</h3>
+                <p><strong>Phone:</strong> +62 123 456 789</p>
+                <p><strong>Email:</strong> example@domain.com</p>
+                <p><strong>Partnership:</strong> partnership@domain.com</p>
+                <a href="">Contact Our Staff</a>
+            </div>
 
-                <label for="lname">Email</label>
-                <input type="email" id="lname" name="lastname" placeholder="Your email address..">
-                <!-- 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select> -->
+            <!-- Right Column -->
+            <div class="right-column">
+                <form action="#" method="POST">
+                    <input type="text" name="fullname" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write your message.."
-                    style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
-            </form>
+        </div>
+        <div class="aware-banner">
+            <h4>Aware Program</h4>
+            <p>If you encounter any instances of misconduct, unethical behavior, such as fraud or bribery, 
+            please report it here.</p>
+            <a href="">contact aware</a>
         </div>
     </section>
     <!-- contact form -->

@@ -58,14 +58,10 @@
                     <h1 class="heading1 text-light">Equinox <br><span class="text-secondary">Shipping</span> <br><span class="text-third">Group</span> </h1>
                     <p class="text-light">Equinox Shipping Group was established in 2001 as an Indonesian national shipping company. Our team of Indonesian and expatriate management and staff bring with us a wealth of local and international experience in all aspects of shipping.
                     </p>
-                    <div class="about-cta">
+                    <!-- <div class="about-cta">
                         <a href="">Apply for a job</a>
                         <a href="">Partner with us</a>
-                    </div>
-                    <div class="about-brands">
-                        <img src="img/logo/logo1.png" alt="">
-                        <img class="img2" src="img/assets/brands-logo/pesona-sentra-utama.png" alt="">
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -111,7 +107,7 @@
         spaceBetween: 30,
         effect: "fade",
         autoplay: {
-            delay: 4000,
+            delay: 10000,
             disableOnInteraction: false,
         },
         navigation: {

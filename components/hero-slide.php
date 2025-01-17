@@ -120,7 +120,7 @@
         spaceBetween: 30,
         effect: "fade",
         autoplay: {
-            delay: 8000,
+            delay: 10000,
             disableOnInteraction: false,
         },
         navigation: {

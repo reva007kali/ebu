@@ -11,7 +11,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: 80vh;
+        min-height: 85vh;
         padding-block: 2rem;
         gap: 20px;
     }
@@ -81,7 +81,7 @@
 <!-- Initialize Swiper -->
 <script>
     var testimonialSwiper = new Swiper(".testimonial", {
-        slidesPerView: 1,
+        slidesPerView: 3,
         loop: true,
         speed: 1000,
         spaceBetween: 10,
