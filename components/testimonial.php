@@ -1,7 +1,9 @@
 <style>
     .testimonial {
+        padding-inline: 6rem;
         width: 100%;
         height: 100%;
+        transform: scale(0.8);
     }
 
     .testimonial-slide {
@@ -9,10 +11,12 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
-        min-height: 85vh;
-        padding-block: 2rem;
+        overflow: hidden;
+        border-radius:var(--border-radius);
+        min-height: 500px;
+        padding-bottom: 2rem;
         gap: 20px;
     }
 </style>
@@ -20,7 +24,6 @@
 <!-- Swiper -->
 <div class="swiper testimonial">
     <div class="swiper-wrapper testimonial-wrapper">
-
         <div class="swiper-slide testimonial-slide">
             <img class="testimonial-bg" src="img/ships/1.jpg" alt="">
             <div class="testimonial-gradient"></div>
@@ -56,19 +59,6 @@
             </div>
             <img class="testimonial-brand" src="img/assets/brands-logo/royal-logo-white.png" alt="">
         </div>
-
-        <div class="swiper-slide testimonial-slide">
-            <img class="testimonial-bg" src="img/ships/1.jpg" alt="">
-            <div class="testimonial-gradient"></div>
-            <img class="testimonial-avatar" src="img/crew/testi.jpg" alt="">
-            <p class="testimonial-review">"Equinox Bahari Utama didn’t just find me a job; they opened the door to a whole new world. Joining Royal Caribbean has been a life-changing adventure, and it all started with their expert guidance and care."</p>
-            <div class="testimonial-profile">
-                <h2 class="testimonial-name">Raka Wijaya</h2>
-                <h3 class="testimonial-position">Head  Waiter</h3>
-            </div>
-            <img class="testimonial-brand" src="img/assets/brands-logo/celebrity-logo-white.png" alt="">
-        </div>
-
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
@@ -84,7 +74,7 @@
         slidesPerView: 3,
         loop: true,
         speed: 1000,
-        spaceBetween: 10,
+        spaceBetween: 50,
         autoplay: {
             delay: 5000,
             disableOnInteraction: true,

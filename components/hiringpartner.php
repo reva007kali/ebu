@@ -1,9 +1,9 @@
-<div class="hp">
+<div class="hp depth-shadow">
     <img class="rcl-logo animate" src="img/assets/brands-logo/rcl-logo-circle.png" alt="">
     <h1 class="heading1 text-light text-center animate">Offical Hiring Partner Of <br> <span
             class="royal-gradient">Royal Caribbean Group</span>
     </h1>
-    <div class="hp-brands flex animate">
+    <div class="hp-brands flex animate depth-shadow">
         <img class="hp-brand-img" src="img/assets/brands-logo/royal-logo.png" alt="">
         <img class="hp-brand-img" src="img/assets/brands-logo/celebrity-logo.png" alt="">
         <img class="hp-brand-img" src="img/assets/brands-logo/silversea-logo.png" alt="">

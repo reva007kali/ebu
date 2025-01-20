@@ -424,31 +424,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
 
     <!-- contact form -->
-    <section class="contact-form">
-        <h1 class="heading2 text-center text-light">CONTACT US</h1>
-        <div class="contact-form-container">
-            <form action="/action_page.php">
-                <label for="fname">Full Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                <label for="lname">Email</label>
-                <input type="email" id="lname" name="lastname" placeholder="Your email address..">
-                <!-- 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select> -->
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write your message.."
-                    style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </section>
+    <?php include 'components/contact-form.php' ?>
     <!-- contact form -->
 
     <?php include 'components/footer.php' ?>

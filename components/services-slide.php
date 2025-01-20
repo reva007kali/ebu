@@ -1,5 +1,6 @@
 <style>
     .services-slider {
+        padding: 60px;
         position: relative;
         width: 100%;
         height: fit-content;
@@ -8,8 +9,6 @@
     .services-wrapper {
         display: flex;
         align-items: center;
-        padding-bottom: 60px;
-        padding-top: 30px;
     }
 
     .services-slide {
@@ -19,6 +18,7 @@
         overflow: hidden;
         height: 400px;
         border-radius: 10px;
+        transition: 400ms ease-in-out;
     }
     .services-slide:hover .services-gradient {
         top: 0;
@@ -119,7 +119,7 @@
 <div class="swiper services-slider">
     <div class="swiper-wrapper services-wrapper">
 
-        <div class="swiper-slide services-slide">
+        <div class="swiper-slide services-slide depth-shadow">
             <div class="services-gradient">
                 <h1>Recruitment</h1>
                 <p>We specialize in sourcing and hiring qualified candidates for various positions in the cruise industry, ensuring the right fit for both employers and job seekers.</p>
@@ -128,7 +128,7 @@
             <img src="img/services/1.jpg" alt="">
         </div>
 
-        <div class="swiper-slide services-slide">
+        <div class="swiper-slide services-slide depth-shadow">
             <div class="services-gradient">
                 <h1>Document Assistance</h1>
                 <p>Our team provides guidance in preparing and organizing essential documents required for employment, including passports, seafarer certifications, and health certificates.</p>
@@ -137,7 +137,7 @@
             <img src="img/services/2.jpg" alt="">
         </div>
 
-        <div class="swiper-slide services-slide">
+        <div class="swiper-slide services-slide depth-shadow">
             <div class="services-gradient">
                 <h1>Visa Assistance</h1>
                 <p>We simplify the visa application process by offering expert support to ensure timely approvals and compliance with destination-specific requirements.</p>
@@ -146,7 +146,7 @@
             <img src="img/services/3.jpg" alt="">
         </div>
 
-        <div class="swiper-slide services-slide">
+        <div class="swiper-slide services-slide depth-shadow">
             <div class="services-gradient">
                 <h1>Deployment</h1>
                 <p>We coordinate the logistics for smooth crew deployment, including travel arrangements and pre-departure briefings, ensuring candidates are fully prepared for their roles.</p>

@@ -1,3 +1,45 @@
+// navbar scroll effect
+let lastScrollY = 0;
+const navbar = document.querySelector(".navbar");
+
+window.addEventListener("scroll", () => {
+  const currentScrollY = window.scrollY;
+
+  if (currentScrollY > lastScrollY) {
+    // Scrolling down
+    navbar.style.top = "-100px";
+  } else {
+    // Scrolling up
+    navbar.style.top = "0";
+  }
+
+  lastScrollY = currentScrollY;
+});
+
+// depth shadow scroll effect
+const boxes = document.querySelectorAll(".depth-shadow");
+
+// Create an IntersectionObserver instance
+const observerShadow = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in-viewport"); // Add the class when the element is in the viewport
+      } else {
+        entry.target.classList.remove("in-viewport"); // Remove the class when the element is out of the viewport
+      }
+    });
+  },
+  {
+    threshold: 0.7, // Trigger when 10% of the element is visible
+  }
+);
+
+// Observe each box
+boxes.forEach((box) => observerShadow.observe(box));
+
+// depth shadow scroll effect
+
 // dark mode
 document.addEventListener("DOMContentLoaded", () => {
   const checkbox = document.getElementById("dm-checkbox");
@@ -34,8 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 // navbar active class
-
-
 
 // slide up animation
 document.addEventListener("DOMContentLoaded", () => {
@@ -136,5 +176,19 @@ function animateNumbers(element, target, duration) {
 
 // Custom buttons logic
 
+function toggleAccordion(header) {
+  const content = header.nextElementSibling;
+  const isOpen = content.classList.contains("open");
 
-// SWIPER TEST
+  // Close all other accordion items
+  document.querySelectorAll(".accordion-content").forEach((item) => {
+    item.classList.remove("open");
+    item.style.maxHeight = null; // Reset max-height
+  });
+
+  // Open the clicked accordion item
+  if (!isOpen) {
+    content.classList.add("open");
+    content.style.maxHeight = content.scrollHeight + "px"; // Dynamically adjust to content height
+  }
+}
