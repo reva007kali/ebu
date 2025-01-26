@@ -25,7 +25,7 @@
             <img class="news-image" src="img/ships/3.jpg" alt="">
             <div class="news-info">
                 <a href=""><h2 class="text-third">"Equinox Bahari Utama Successfully Deploys 5000 Crew Members to Royal Caribbean"</h2></a>
-                <h4 class="text-light">January 3, 2025</h4>
+                <h4 class="text-secondary">January 3, 2025</h4>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
             <img class="news-image" src="img/blog/3.jpg" alt="">
             <div class="news-info">
                 <a href=""><h2 class="text-third">"Equinox Hosts Career Expo for Cruise Line Opportunities in Jakarta"</h2></a>
-                <h4 class="text-light">October 25, 2024</h4>
+                <h4 class="text-secondary">October 25, 2024</h4>
             </div>
         </div>
 
@@ -41,7 +41,7 @@
             <img class="news-image" src="img/blog/5.jpg" alt="">
             <div class="news-info">
                 <a href=""><h2 class="text-third">"Crew Conference Nusantara Regis Satu"</h2></a>
-                <h4 class="text-light">September 12, 2024</h4>
+                <h4 class="text-secondary">September 12, 2024</h4>
             </div>
         </div>
 
@@ -49,7 +49,7 @@
             <img class="news-image" src="img/blog/2.jpg" alt="">
             <div class="news-info">
                 <a href=""><h2 class="text-third">Lorem ipsum dolor sit.</h2></a>
-                <h4 class="text-light">1 January 2025</h4>
+                <h4 class="text-secondary">1 January 2025</h4>
             </div>
         </div>
 

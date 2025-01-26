@@ -981,7 +981,6 @@ a {
 .office-col h1 {
   letter-spacing: 3px;
   font-size: 3rem;
-  color: var(--third);
 }
 .office-col h2 {
   font-size: 1rem;
@@ -1045,6 +1044,7 @@ a {
 }
 .news-info h2 {
   font-size: 18px;
+  font-weight: 500;
 }
 /* news */
 

@@ -130,7 +130,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <img src="img/crew/marine.jpg" alt="" class="wwd-bg">
                 <div class="wwd-content">
                     <h1>Marine <span class="text-secondary">Recruitment</span></h1>
-                    <p>Specializing in maritime crew placement, Equinox Bahari Utama connects qualified seafarers with leading cruise line company</p>
+                    <p>Specializing in maritime crew placement, Equinox Bahari Utama connects qualified seafarers with
+                        leading cruise line company</p>
                 </div>
             </div>
         </div>
@@ -146,17 +147,17 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- testimonial -->
 
     <!-- our offices -->
-    <section class="office entry-anim">
+    <section class="office ">
         <div class="office-heading">
-            <h1 class="heading2 text-primary">Our Office Location</h1>
+            <h1 class="heading2 text-primary entry-anim">Our Office Location</h1>
             <!-- <p class="para">Equinox Bahari Utama, a fully licensed crewing company in Indonesia, operates offices in both Jakarta and
                 Bali, each offering unique advantages to seafarers and clients.</p> -->
         </div>
 
-        <div class="office-row">
+        <div class="office-row entry-anim">
             <div class="office-col">
                 <div class="office-content">
-                    <h1>Jakarta Office</h1>
+                    <h1 class="heading1 text-light">Jakarta <span class="text-third">Office</span></h1>
                     <ul>
                         <li><strong>Strategic Position:</strong> <br>Situated in Indonesia's capital, the Jakarta
                             office
@@ -187,10 +188,10 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <?php include 'components/jakarta-office-slider.php' ?>
             </div>
         </div>
-        <div class="office-row">
+        <div class="office-row entry-anim">
             <div class="office-col">
                 <div class="office-content">
-                    <h1>Bali Office</h1>
+                    <h1 class="heading1 text-light">Bali <span class="text-secondary">Office</span></h1>
 
                     <ul>
                         <li><strong>Regional Accessibility:</strong><br>The Bali office caters to seafarers in the
