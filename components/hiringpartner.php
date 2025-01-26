@@ -1,4 +1,4 @@
-<div class="hp depth-shadow">
+<div class="hp entry-anim">
     <img class="rcl-logo animate" src="img/assets/brands-logo/rcl-logo-circle.png" alt="">
     <h1 class="heading1 text-light text-center animate">Offical Hiring Partner Of <br> <span
             class="royal-gradient">Royal Caribbean Group</span>

@@ -1,8 +1,8 @@
 <style>
     .services-slider {
-        padding: 60px;
         position: relative;
         width: 100%;
+        padding-block: 2rem;
         height: fit-content;
     }
 
@@ -11,71 +11,58 @@
         align-items: center;
     }
 
+    .services-slide img {
+        object-fit: cover;
+        height: 40%;
+    }
+
     .services-slide {
         position: relative;
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
         overflow: hidden;
-        height: 400px;
+        height: 500px;
         border-radius: 10px;
-        transition: 400ms ease-in-out;
-    }
-    .services-slide:hover .services-gradient {
-        top: 0;
-        background: rgba(4, 33, 67, 0.87);
-
-    }
-    .services-slide:hover .services-gradient p {
-        opacity: 1;
-
+        transition: 200ms ease-in-out;
+        cursor: pointer;
+        box-shadow: var(--shadow-sm);
     }
 
-    .services-slide img {
-        position: absolute;
-        display: block;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 1;
+    .services-slide:hover {
+        transform: scale(.95);
     }
 
     .services-gradient {
-        position: absolute;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        padding: 1rem 1.5rem;
-        top: 70%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        background: rgba(4, 33, 67, 0.92);
-        z-index: 2;
-        transition: 500ms ease-in-out;
+        justify-content: space-between;
+        color: var(--primary);
+        height: 60%;
+        gap: 1rem;
+        padding: 2rem;
+        line-height: var(--ls);
     }
+
+    .services-gradient:hover .arrow-icon {
+        transform: translateX(90%);
+    }
+
+    .arrow-icon {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        border: 2px solid var(--primary);
+        transition: 200ms ease;
+    }
+
     .services-gradient h1 {
-        font-size: 24px;
-        border-bottom: 2px solid var(--third);
-        padding-bottom: 10px;
-        margin-bottom: 10px;
-        color: var(--third);
+        color: var(--primary);
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 2.2rem;
     }
-    .services-gradient p {
-        transition: 300ms ease;
-        color: var(--light);
-        opacity: 0;
-    }
-    .services-gradient a {
-        color: var(--light);
-        background-color: var(--secondary);
-        padding: 5px 10px;
-        width: fit-content;
-        margin-block: 2rem;
-        border-radius: var(--border-radius);
-    }
+
     .prev {
         position: absolute;
         left: -35px;
@@ -119,40 +106,48 @@
 <div class="swiper services-slider">
     <div class="swiper-wrapper services-wrapper">
 
-        <div class="swiper-slide services-slide depth-shadow">
+        <div class="swiper-slide services-slide bg-white" onclick="window.location.href='crewing-services.php';">
             <div class="services-gradient">
+                <p class="text-secondary">Learn More</p>
                 <h1>Recruitment</h1>
-                <p>We specialize in sourcing and hiring qualified candidates for various positions in the cruise industry, ensuring the right fit for both employers and job seekers.</p>
-                <a href="">Learn more</a>
+                <p>We specialize in sourcing and hiring qualified candidates for various positions in the cruise
+                    industry.</p>
+                <i class="arrow-icon" data-feather="arrow-right"></i>
             </div>
-            <img src="img/services/1.jpg" alt="">
+            <img src="img/ships/icon-ots.jpg" alt="">
         </div>
 
-        <div class="swiper-slide services-slide depth-shadow">
+        <div class="swiper-slide services-slide bg-secondary">
             <div class="services-gradient">
+                <p class="text-light">Learn More</p>
                 <h1>Document Assistance</h1>
-                <p>Our team provides guidance in preparing and organizing essential documents required for employment, including passports, seafarer certifications, and health certificates.</p>
-                <a href="">Learn more</a>
+                <!-- <p>Our team provides guidance in preparing and organizing essential documents required for employment, including passports, seafarer certifications, and health certificates.</p> -->
+                <i class="arrow-icon" data-feather="arrow-right"></i>
+
             </div>
-            <img src="img/services/2.jpg" alt="">
+            <img src="img/services/document-asst.png" alt="">
         </div>
 
-        <div class="swiper-slide services-slide depth-shadow">
+        <div class="swiper-slide services-slide bg-white">
             <div class="services-gradient">
+                <p class="text-secondary">Learn More</p>
                 <h1>Visa Assistance</h1>
-                <p>We simplify the visa application process by offering expert support to ensure timely approvals and compliance with destination-specific requirements.</p>
-                <a href="">Learn more</a>
+                <p>We simplify the visa application process by offering expert support to ensure timely approvals and
+                    compliance.</p>
+                <i class="arrow-icon" data-feather="arrow-right"></i>
             </div>
             <img src="img/services/3.jpg" alt="">
         </div>
 
-        <div class="swiper-slide services-slide depth-shadow">
+        <div class="swiper-slide services-slide bg-secondary">
             <div class="services-gradient">
+                <p class="text-light">Learn More</p>
                 <h1>Deployment</h1>
-                <p>We coordinate the logistics for smooth crew deployment, including travel arrangements and pre-departure briefings, ensuring candidates are fully prepared for their roles.</p>
-                <a href="">Learn more</a>
+                <!-- <p>We coordinate the logistics for smooth crew deployment, including travel arrangements and
+                    pre-departure briefings, ensuring candidates are fully prepared for their roles.</p> -->
+                <i class="arrow-icon" data-feather="arrow-right"></i>
             </div>
-            <img src="img/services/4.jpg" alt="">
+            <img src="img/services/4.png" alt="">
         </div>
 
     </div>
@@ -168,7 +163,7 @@
 <script>
     var servicesSwiper = new Swiper(".services-slider", {
         slidesPerView: 4,
-        spaceBetween: 20,
+        spaceBetween: 40,
         freeMode: true,
         navigation: {
             nextEl: ".next",

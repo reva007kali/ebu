@@ -43,35 +43,34 @@
     }   
 </style>
 
+
 <!-- Swiper -->
 <div class="swiper hero-swiper">
 
     <div class="swiper-wrapper hero-wrapper">
 
         <div class="swiper-slide hero-slide">
-            <section class="hero" style="background: url(img/ships/wonderots2.jpg) center/cover no-repeat;">
+            <section class="hero" style="background: url(img/ships/banner2.jpg) center/cover no-repeat;">
                 <div class="hero-gradient"></div>
-                <h1 class="pt-ebu heading1 text-light">PT.EQUINOX <span class="text-third">BAHARI UTAMA</span> <span class="text-secondary">CRUISE</span></h1>
+                <!-- <h1 class="pt-ebu heading1 text-light">PT.EQUINOX <span class="text-third">BAHARI UTAMA</span> <span class="text-secondary">CRUISE</span></h1> -->
                 <!-- <h1 class="pt-ebu heading1 text-light">PT.EQUINOX <br><span class="text-third">BAHARI UTAMA</span> <br><span class="text-secondary">CRUISE</span></h1> -->
                 <div class="hero-content">
-                    <h1 class="heading1 text-light">More than a job,<br><span class="text-third">it’s a future</span></h1>
+                    <h1 class="heading1 text-light">PT.EQUINOX<br><span class="text-third">BAHARI UTAMA</span><br><span class="text-secondary">CRUISE</span></h1>
                     <p class="text-light"><strong>Equinox Bahari Utama Cruise</strong> is the official
                         hiring partner of the
-                        <strong>Royal Caribbean Group</strong>, specializing in connecting talented
-                        individuals with rewarding
-                        careers at sea.
+                        <strong>Royal Caribbean Group</strong>
                     </p>
                     <div class="hero-cta">
                         <a href="">Apply for a job</a>
                         <a href="">Partner with us</a>
                     </div>
-                    <div class="hero-brands">
+                    <!-- <div class="hero-brands">
                         <img src="img/assets/brands-logo/royal-logo-white.png" alt="">
                         <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="">
                         <img src="img/assets/brands-logo/silversea-logo-white.png" alt="">
                         <img src="img/assets/brands-logo/tui-logo-white.png" alt="">
                         <img src="img/assets/brands-logo/hapag-logo-white.png" alt="">
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -79,23 +78,16 @@
         </div>
 
         <div class="swiper-slide hero-slide">
-            <section class="hero" style="background: url(img/ships/banner2.jpg) center/cover no-repeat;">
+            <section class="hero" style="background:url(img/equinox/globe-building.jpg) center/cover no-repeat;">
                 <div class="hero-gradient"></div>
                 <img class="hero-bg" src="img/equinox/ambassador.png" alt="">
                 <div class="hero-content">
-                    <h1 class="heading1 text-light">Meet our Brand <br><span class="text-secondary">Ambassador</span></h1>
+                    <h1 class="heading1 text-light">Meet <br><span class="text-third">our Brand </span><br><span class="text-secondary">Ambassador</span></h1>
                     <p class="text-light"><strong>Hariri Sulaiman</strong>, <br>
                         First Indonesian Second Officer at Royal Caribbean Group</p>
                     <div class="hero-cta">
-                        <a href="">Apply for a job</a>
+                        <!-- <a href="">Apply for a job</a> -->
                         <a href="">About Hariri Sulaiman</a>
-                    </div>
-                    <div class="hero-brands">
-                        <img src="img/assets/brands-logo/royal-logo-white.png" alt="">
-                        <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="">
-                        <img src="img/assets/brands-logo/silversea-logo-white.png" alt="">
-                        <img src="img/assets/brands-logo/tui-logo-white.png" alt="">
-                        <img src="img/assets/brands-logo/hapag-logo-white.png" alt="">
                     </div>
 
                 </div>
@@ -117,8 +109,7 @@
     var heroSwiper = new Swiper(".hero-swiper", {
         loop: true,
         speed: 1000,
-        spaceBetween: 30,
-        effect: "fade",
+        spaceBetween: 0,
         autoplay: {
             delay: 10000,
             disableOnInteraction: false,

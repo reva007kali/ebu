@@ -13,7 +13,7 @@
         font-size: 18px;
         background-color: var(--primary);
         border-radius: var(--border-radius);
-        height: 400px;
+        height: 500px;
     }
 </style>
 
@@ -71,7 +71,7 @@
 <!-- Initialize Swiper -->
 <script>
     var newsSwiper = new Swiper(".news-swiper", {
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 30,
         pagination: {
             el: ".swiper-pagination",

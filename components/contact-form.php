@@ -1,4 +1,4 @@
-<section class="contact-form">
+<section class="contact-form entry-anim">
         <div class="contact-form-gradient"></div>
         <h1 class="heading1 text-center text-light">Contact us</h1>
         <div class="contact-form-container">
