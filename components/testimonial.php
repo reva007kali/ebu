@@ -4,7 +4,9 @@
         margin-block: 1rem;
     }
 
-    .testimonial-slide {}
+    .testimonial-slide {
+        cursor: grab;
+    }
 </style>
 
 <!-- Swiper -->
@@ -27,6 +29,69 @@
                             <img src="img/assets/brands-logo/royal-logo-white.png" alt="" class="testi-brand">
                         </div>
                         <img class="testimonial-avatar" src="img/crew/hariri.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide testimonial-slide">
+            <div class="testimonial-card">
+                <div class="testimonial-row">
+                    <div class="testimonial-col bg-primary">
+                        <div class="testimonial-content">
+                            <p class="text-secondary">Testimonial</p>
+                            <br>
+                            <h1 class="heading1 text-light">Paulette <br><span class="text-third">Johanson</span></h1>
+                            <br>
+                            <p class="text-light">"Equinox Bahari Utama provided everything I needed to succeed at Royal
+                                Caribbean. Their professionalism and care made all the difference. I’m proud to
+                                represent both companies."</p>
+                            <br>
+                            <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="" class="testi-brand">
+                        </div>
+                        <img class="testimonial-avatar" src="img/crew/teamtest.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide testimonial-slide">
+            <div class="testimonial-card">
+                <div class="testimonial-row">
+                    <div class="testimonial-col bg-primary">
+                        <div class="testimonial-content">
+                            <p class="text-secondary">Testimonial</p>
+                            <br>
+                            <h1 class="heading1 text-light">Paulette <br><span class="text-third">Johanson</span></h1>
+                            <br>
+                            <p class="text-light">"Equinox Bahari Utama provided everything I needed to succeed at Royal
+                                Caribbean. Their professionalism and care made all the difference. I’m proud to
+                                represent both companies."</p>
+                            <br>
+                            <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="" class="testi-brand">
+                        </div>
+                        <img class="testimonial-avatar" src="img/crew/teamtest.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide testimonial-slide">
+            <div class="testimonial-card">
+                <div class="testimonial-row">
+                    <div class="testimonial-col bg-primary">
+                        <div class="testimonial-content">
+                            <p class="text-secondary">Testimonial</p>
+                            <br>
+                            <h1 class="heading1 text-light">Paulette <br><span class="text-third">Johanson</span></h1>
+                            <br>
+                            <p class="text-light">"Equinox Bahari Utama provided everything I needed to succeed at Royal
+                                Caribbean. Their professionalism and care made all the difference. I’m proud to
+                                represent both companies."</p>
+                            <br>
+                            <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="" class="testi-brand">
+                        </div>
+                        <img class="testimonial-avatar" src="img/crew/teamtest.png" alt="">
                     </div>
                 </div>
             </div>

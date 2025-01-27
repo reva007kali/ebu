@@ -29,10 +29,10 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- about page -->
 
     <!-- overview -->
-    <section class="about-overview">
+    <section class="about-overview entry-anim">
         <!-- <div class="overview-gradient"></div> -->
-        <div class="overview-row">
-            <div class="overview-col animate">
+        <div class="overview-row ">
+            <div class="overview-col ">
                 <h1 class="heading1 text-primary">The <span class=" text-secondary">Equinox</span>
                     <span class="text-third">Companies</span>
                 </h1>
@@ -54,17 +54,17 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                     <!-- <img src="img/logo/logo1.png" alt=""> -->
                 </div>
             </div>
-            <img src="img/assets/test4.png" alt="" class="overview-bg animate">
+            <img src="img/assets/test4.png" alt="" class="overview-bg entry-anim">
 
         </div>
     </section>
     <!-- overview -->
     <!-- overview -->
-    <section class="about-overview">
+    <section class="about-overview entry-anim">
         <!-- <div class="overview-gradient"></div> -->
-        <div class="overview-row">
-            <img src="img/ships/psu-1.jpg" alt="" class="overview-bg animate">
-            <div class="overview-col animate">
+        <div class="overview-row ">
+            <img src="img/ships/psu-1.jpg" alt="" class="overview-bg entry-anim">
+            <div class="overview-col">
                 <h1 class="heading1 text-primary">Equinox <span class=" text-secondary">sentra</span>
                     <span class="text-third">bahari</span>
                 </h1>
@@ -89,8 +89,17 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     </section>
     <!-- overview -->
 
+    <!-- our services -->
+    <div class="services entry-anim">
+        <h1 class="heading2 text-third">Equinox Shipping Group</h1>
+        <div class="services-row">
+            <?php include 'components/ebu-slide.php' ?>
+        </div>
+    </div>
+    <!-- our services -->
+
     <!-- psu group -->
-    <section class="psu-group">
+    <!-- <section class="psu-group">
         <h1 class="heading1 text-center text-light">Equinox Shipping Group</h1>
         <div class="psu-row">
             <div class="psu-card">
@@ -121,18 +130,21 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- psu group -->
 
     <!-- company profile video -->
-    <div class="company-vid animate">
+    <div class="company-vid entry-anim">
         <img src="img/assets/phone.png" alt="">
         <video controls muted poster="img/assets/equinox.jpg" src="img/video/ebu.mov"></video>
     </div>
     <!-- company profile video -->
 
+    <img src="img/assets/milestone3.png" alt="" class="milestone-img entry-anim">
+
+
     <!-- milestone -->
-    <section class="milestone">
+    <!-- <section class="milestone">
         <img class="milestone-bg" src="img/ships/3.jpg" alt="">
         <h1 class="text-light text-center heading1">Our Milestone</h1>
         <div class="milestone-row">
@@ -180,14 +192,14 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
             </div>
 
         </div>
-    </section>
+    </section> -->
     <!-- milestone -->
 
 
 
     <!-- leader -->
-    <section class="leader">
-        <h1 class="heading1 text-center text-third">Board of Director</h1>
+    <section class="leader entry-anim">
+        <h1 class="heading1 text-center text-primary">Board of</span> <span class="text-third">Director</span></h1>
         <div class="leader-row">
             <div class="leader-col1">
                 <div class="leader-gradient"></div>
@@ -221,13 +233,13 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- leader -->
 
     <!-- ivan pereira -->
-    <section class="ivan">
+    <section class="ivan entry-anim">
         <!-- <h1 class="heading2 text-center text-primary">Cruise Department General Manager</h1> -->
         <div class="ivan-row">
-            <img src="img/team/ivan_.jpg" alt="">
+
             <div class="ivan-col">
-                <h1 class="heading2 text-light">Ivan Pereira</h1>
-                <h2 class="text-light">Cruise Department General Manager</h2>
+                <h1 class="heading5 text-light">Ivan <span class="text-third">Pereira</span></h1>
+                <h2 class="text-secondary">Cruise Department General Manager</h2>
                 <p> With 25 years in the cruise industry, including 15 years in food service onboard Royal Caribbean
                     Group (RCG) ships, I have extensive experience in talent acquisition. <br><br>My roles have included
                     serving
@@ -244,13 +256,14 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <a href="https://www.linkedin.com/in/ivan-pereira-4456a5196/"><i data-feather="linkedin"></i>Visit
                     LinkedIn</a>
             </div>
+            <img class="ivan-bg" src="img/team/ivanpereira.png" alt="">
         </div>
     </section>
     <!-- ivan pereira -->
 
     <!-- leader -->
-    <section class="leader2">
-        <h1 class="heading1 text-center text-light">Cruise Department Leader</h1>
+    <section class="leader2 entry-anim">
+        <h1 class="heading1 text-left text-primary">Cruise <span class="text-light">Department</span> <span class="text-light">Leader</span></h1>
         <div class="leader-row">
             <div class="leader-col">
                 <div class="leader-gradient"></div>
@@ -283,6 +296,17 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                             data-feather="linkedin"></i>Visit LinkedIn</a>
                 </div>
             </div>
+            <div class="leader-col">
+                <div class="leader-gradient"></div>
+                <img class="leader-image" src="img/team/raissas.jpeg" alt="">
+                <div class="leader-info">
+                    <h2 class="leader-name">Ruth</h2>
+                    <h4 class="leader-position">Visa Section Head
+                    </h4>
+                    <a href="https://www.linkedin.com/in/raissa-hummaira-643aa7141/"><i
+                            data-feather="linkedin"></i>Visit LinkedIn</a>
+                </div>
+            </div>
             <!-- <div class="leader-col">
                 <div class="leader-gradient"></div>
                 <img class="leader-image" src="img/team/7.jpg" alt="">
@@ -304,7 +328,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- leader -->
 
     <!-- vision -->
-    <div class="vm">
+    <div class="vm entry-anim">
         <div class="vm-row">
             <div class="vm-col">
                 <img src="img/vmv/vision.jpg" alt="">
@@ -343,7 +367,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- vision -->
 
     <!-- our values -->
-    <div class="values">
+    <div class="values entry-anim">
         <h1 class="heading1 text-center text-light">Our Values</h1>
         <div class="value-row">
 
@@ -408,7 +432,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
 
     <!-- our licenses -->
-    <div class="licenses">
+    <div class="licenses entry-anim">
         <h1 class="heading2 text-center text-primary">Our Licenses</h1>
         <div class="licenses-row">
             <?php include 'components/licenses-slide.php' ?>

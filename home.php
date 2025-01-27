@@ -60,8 +60,16 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- deployed numbers -->
     <section class="deployed entry-anim">
         <img src="img/ships/royal-caribbean-cruises.jpg" alt="" class="deployed-background">
-        <h1 class="heading2 text-light">Crew departure statistics <span class="text-primary">by
-                department</span></h1>
+        <div class="deployed-content">
+            <h1 class="heading2 text-light">Crew departure statistics <span class="text-secondary">by
+                    department</span>
+            </h1>
+            <p>We have deployed total xxxx <br>
+                candidates onboard from various departments <br>
+                like Culinary, F&B Housekeeping
+                and
+                Marine</p>
+        </div>
         <div class="deployed-row">
 
             <div class="deployed-col data-numbers-container depth-shadow">
@@ -113,10 +121,154 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
 
     <!-- what we do -->
+    <!-- Modal -->
+    <div id="wwd-modal" class="wwd-modal">
+        <div class="wwd-modal-content">
+            <span class="wwd-modal-close" onclick="closeWwdModal()">&times;</span>
+            <a href="" class="btn wwd-cta">Apply Now</a>
+            <!-- Hotel Recruitment Content -->
+            <div id="hotel-content" class="wwd-modal-section">
+                <h1 class="heading1 text-third">Hotel Recruitment</h1>
+                <div class="accordion-container">
+
+                    <!-- Culinary -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Culinary</h3>
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>Sous Chef (All Sections)</li>
+                                <li>Junior Sous Chef</li>
+                                <li>Chef De Partie (All Sections)</li>
+                                <li>Chef De Partie Gandemanger</li>
+                                <li>Teppan Chef</li>
+                                <li>Commis - 1 (Hot Kitchen, Pastry, Pantry, Bakery, Sushi, Butcher)</li>
+                                <li>Commis - 2 (Hot Kitchen, Pastry, Pantry, Bakery, Sushi, Butcher)</li>
+                                <li>Galley Steward</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Casino -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Casino</h3>
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>Casino Dealer</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Entertainment -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Entertainment</h3>
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>Cruise Staff</li>
+                                <li>Sports Staff</li>
+                                <li>Youth Staff</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Hotel Operations -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Hotel Operations</h3>
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>Provision Storekeeper</li>
+                                <li>Storekeeper-Hotel</li>
+                                <li>Provision Utility</li>
+                                <li>Lifeguard Staff</li>
+                                <li>Security Staff</li>
+                                <li>Photographer</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Housekeeping -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Housekeeping</h3>
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>Laundry Master</li>
+                                <li>Assistant Laundry Master</li>
+                                <li>Laundry Attendant</li>
+                                <li>Housekeeping Supervisor</li>
+                                <li>Linenkeeper/Laundrymaster</li>
+                                <li>Public Area Attendant</li>
+                                <li>Cleaner-Tailor</li>
+                                <li>Housekeeping Admin Assistant</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Food and Beverage -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Food and Beverage (F&B)</h3>
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>Restaurant Attendant</li>
+                                <li>Asst. Waiter</li>
+                                <li>Waiter</li>
+                                <li>Restaurant Supervisor</li>
+                                <li>Head Waiter</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Marine -->
+
+                </div>
+            </div>
+
+            <!-- Marine Recruitment Content -->
+            <div id="marine-content" class="wwd-modal-section">
+                <h1 class="text-third heading1">Marine Recruitment</h1>
+                <div class="accordion-container">
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Marine</h3>
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>3Rd Asst. Repairman</li>
+                                <li>3Rd Asst. Carpenter</li>
+                                <li>3Rd Asst. Electrician</li>
+                                <li>Sailor Os</li>
+                                <li>Sailor Ab</li>
+                                <li>Junior Engine Man</li>
+                                <li>Junior Seaman</li>
+                                <li>Motorman</li>
+                                <li>Upholsterer</li>
+                                <li>Horticulturist</li>
+                                <li>Incinerator Operator</li>
+                                <li>Asst. Refrig. Engineer</li>
+                                <li>Repairman</li>
+                                <li>Oiler</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="wwd entry-anim">
         <h1 class="heading2 text-primary">What We Do</h1>
         <div class="wwd-row">
-            <div class="wwd-col ">
+            <div class="wwd-col " onclick="openWwdModal('hotel')">
                 <div class="wwd-gradient"></div>
                 <img src="img/crew/2.jpg" alt="" class="wwd-bg">
                 <div class="wwd-content">
@@ -125,7 +277,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                         Culinary, F&B Services, Housekeeping and more.</p>
                 </div>
             </div>
-            <div class="wwd-col bg-primary">
+            <div class="wwd-col bg-primary" onclick="openWwdModal('marine')">
                 <div class="wwd-gradient"></div>
                 <img src="img/crew/marine.jpg" alt="" class="wwd-bg">
                 <div class="wwd-content">
@@ -155,22 +307,25 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         </div>
 
         <div class="office-row entry-anim">
-            <div class="office-col">
+            <div class="office-col bg-primary">
                 <div class="office-content">
                     <h1 class="heading1 text-light">Jakarta <span class="text-third">Office</span></h1>
                     <ul>
-                        <li><strong>Strategic Position:</strong> <br>Situated in Indonesia's capital, the Jakarta
+                        <li><strong class="text-third">Strategic Position:</strong> <br>Situated in Indonesia's capital,
+                            the Jakarta
                             office
                             is at the heart of
                             the nation's maritime industry, providing easy access to major shipping companies and
                             regulatory bodies.</li>
-                        <li><strong>Comprehensive Services:</strong> <br>As the head office, it offers a full range
+                        <li><strong class="text-third">Comprehensive Services:</strong> <br>As the head office, it
+                            offers a full range
                             of
                             services, including
                             recruitment, training, and crew management, ensuring efficient operations and support
                             for
                             seafarers.</li>
-                        <li><strong>Professional Network:</strong> <br>Proximity to various maritime organizations
+                        <li><strong class="text-third">Professional Network:</strong> <br>Proximity to various maritime
+                            organizations
                             and
                             institutions
                             facilitates strong industry connections and opportunities for collaboration.</li>
@@ -189,34 +344,38 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
             </div>
         </div>
         <div class="office-row entry-anim">
+
             <div class="office-col">
+                <?php include 'components/bali-office-slider.php' ?>
+            </div>
+            <div class="office-col bg-secondary">
                 <div class="office-content">
-                    <h1 class="heading1 text-light">Bali <span class="text-secondary">Office</span></h1>
+                    <h1 class="heading1 text-light">Bali <span class="text-primary">Office</span></h1>
 
                     <ul>
-                        <li><strong>Regional Accessibility:</strong><br>The Bali office caters to seafarers in the
+                        <li><strong class="text-primary">Regional Accessibility:</strong><br>The Bali office caters to
+                            seafarers in the
                             eastern
                             regions of Indonesia, making it convenient for local applicants to access recruitment
                             and
                             training services.</li>
-                        <li><strong>Focused Recruitment:</strong> <br>Specializes in conducting walk-in interviews
+                        <li><strong class="text-primary">Focused Recruitment:</strong> <br>Specializes in conducting
+                            walk-in interviews
                             and
                             onboarding processes, streamlining the hiring experience for candidates.</li>
-                        <li><strong>Cultural Hub:</strong><br>Cultural Hub: Located in a major tourist destination,
+                        <li><strong class="text-primary">Cultural Hub:</strong><br>Cultural Hub: Located in a major
+                            tourist destination,
                             the
                             Bali
                             office benefits from a rich cultural environment, enhancing the hospitality training
                             provided to cruise ship crew members.</li>
                     </ul>
 
-                    <h2><strong class="text-third">Location:</strong> Gedung MNC Vision Lt.3, Denpasar, Bali.</h2>
+                    <h2><strong class="text-primary">Location:</strong> Gedung MNC Vision Lt.3, Denpasar, Bali.</h2>
                     <br>
                     <a class="flex" href="https://maps.app.goo.gl/3VLwJuq5K7MGCEc29"><i data-feather="map-pin"></i>Open
                         map</a>
                 </div>
-            </div>
-            <div class="office-col">
-                <?php include 'components/bali-office-slider.php' ?>
             </div>
         </div>
     </section>
@@ -230,10 +389,6 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     </section>
     <!-- latest news -->
-
-    <!-- contact form -->
-    <?php include 'components/contact-form.php' ?>
-    <!-- contact form -->
 
 
 

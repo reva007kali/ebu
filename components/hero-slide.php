@@ -40,7 +40,7 @@
         border: 4px solid var(--primary);
         box-shadow: var(--shadow-sm);
         transform: scale(.8);
-    }   
+    }
 </style>
 
 
@@ -55,7 +55,8 @@
                 <!-- <h1 class="pt-ebu heading1 text-light">PT.EQUINOX <span class="text-third">BAHARI UTAMA</span> <span class="text-secondary">CRUISE</span></h1> -->
                 <!-- <h1 class="pt-ebu heading1 text-light">PT.EQUINOX <br><span class="text-third">BAHARI UTAMA</span> <br><span class="text-secondary">CRUISE</span></h1> -->
                 <div class="hero-content">
-                    <h1 class="heading1 text-light">PT.EQUINOX<br><span class="text-third">BAHARI UTAMA</span><br><span class="text-secondary">CRUISE</span></h1>
+                    <h1 class="heading1 text-light">PT.EQUINOX<br><span class="text-third">BAHARI UTAMA</span><br><span
+                            class="text-secondary">CRUISE</span></h1>
                     <p class="text-light"><strong>Equinox Bahari Utama Cruise</strong> is the official
                         hiring partner of the
                         <strong>Royal Caribbean Group</strong>
@@ -64,13 +65,13 @@
                         <a href="">Apply for a job</a>
                         <a href="">Partner with us</a>
                     </div>
-                    <!-- <div class="hero-brands">
+                    <div class="hero-brands">
                         <img src="img/assets/brands-logo/royal-logo-white.png" alt="">
                         <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="">
                         <img src="img/assets/brands-logo/silversea-logo-white.png" alt="">
                         <img src="img/assets/brands-logo/tui-logo-white.png" alt="">
                         <img src="img/assets/brands-logo/hapag-logo-white.png" alt="">
-                    </div> -->
+                    </div>
 
                 </div>
 
@@ -82,12 +83,20 @@
                 <div class="hero-gradient"></div>
                 <img class="hero-bg" src="img/equinox/ambassador.png" alt="">
                 <div class="hero-content">
-                    <h1 class="heading1 text-light">Meet <br><span class="text-third">our Brand </span><br><span class="text-secondary">Ambassador</span></h1>
+                    <h1 class="heading1 text-light">Meet <br><span class="text-third">our Brand </span><br><span
+                            class="text-secondary">Ambassador</span></h1>
                     <p class="text-light"><strong>Hariri Sulaiman</strong>, <br>
                         First Indonesian Second Officer at Royal Caribbean Group</p>
                     <div class="hero-cta">
                         <!-- <a href="">Apply for a job</a> -->
                         <a href="">About Hariri Sulaiman</a>
+                    </div>
+                    <div class="hero-brands">
+                        <img src="img/assets/brands-logo/royal-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/celebrity-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/silversea-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/tui-logo-white.png" alt="">
+                        <img src="img/assets/brands-logo/hapag-logo-white.png" alt="">
                     </div>
 
                 </div>

@@ -174,21 +174,50 @@ function animateNumbers(element, target, duration) {
 
 // SWIPER TEST
 
-// Custom buttons logic
-
+// wwd accordion
 function toggleAccordion(header) {
   const content = header.nextElementSibling;
-  const isOpen = content.classList.contains("open");
+  const isOpen = content.style.display === "block";
 
   // Close all other accordion items
   document.querySelectorAll(".accordion-content").forEach((item) => {
-    item.classList.remove("open");
-    item.style.maxHeight = null; // Reset max-height
+    item.style.display = "none";
   });
 
-  // Open the clicked accordion item
-  if (!isOpen) {
-    content.classList.add("open");
-    content.style.maxHeight = content.scrollHeight + "px"; // Dynamically adjust to content height
+  // Toggle the clicked accordion item
+  content.style.display = isOpen ? "none" : "block";
+}
+
+// wwd accordion
+
+// wwd modal
+function openWwdModal(type) {
+  const modal = document.getElementById("wwd-modal");
+  modal.style.display = "flex"; // Show modal
+
+  // Hide all modal sections first
+  document.querySelectorAll(".wwd-modal-section").forEach((section) => {
+    section.style.display = "none";
+  });
+
+  // Show the appropriate section based on the type
+  if (type === "hotel") {
+    document.getElementById("hotel-content").style.display = "block";
+  } else if (type === "marine") {
+    document.getElementById("marine-content").style.display = "block";
   }
 }
+
+function closeWwdModal() {
+  const modal = document.getElementById("wwd-modal");
+  modal.style.display = "none"; // Hide modal
+}
+
+// Optional: Close modal when clicking outside the content
+document.getElementById("wwd-modal").addEventListener("click", (e) => {
+  if (e.target === e.currentTarget) {
+    closeWwdModal();
+  }
+});
+
+// wwd modal

@@ -62,6 +62,10 @@
                         <a href="">Apply for a job</a>
                         <a href="">Partner with us</a>
                     </div> -->
+                    <div class="about-brands">
+                        <img src="img/logo/logo1.png" alt="">
+                        <img class="img2" src="img/assets/brands-logo/pesona-sentra-utama.png" alt="">
+                    </div>
 
                 </div>
 
