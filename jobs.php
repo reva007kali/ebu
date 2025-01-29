@@ -32,6 +32,75 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <?php include 'components/jobs-slide.php' ?>
     <!-- jobs landing page -->
 
+    <!-- royal brands logo  -->
+     <div class="partner">
+        <div class="partner-row">
+            <img src="img/assets/brands-logo/royal-logo.png" alt="">
+            <img src="img/assets/brands-logo/celebrity-logo.png" alt="">
+            <img src="img/assets/brands-logo/tui-logo.png" alt="">
+            <img src="img/assets/brands-logo/silversea-logo.png" alt="">
+        </div>
+     </div>
+    <!-- royal brands logo  -->
+
+    <!-- job dashobard -->
+     <div class="jobs-dash">
+        <div class="job-dash-grid">
+
+            <div class="job-item">
+                <h4>Royal Caribbean</h4>
+                <h2>Waiter</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="job-item-cta">
+                    <a class="btn" href="">Apply now</a>
+                    <a class="btn" href="">See Requirements</a>
+                </div>
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+            <div class="job-item">
+
+            </div>
+
+        </div>
+     </div>
+    <!-- job dashobard -->
+
 
     <!-- latest job opening -->
     <div class="job-opening">
@@ -44,38 +113,6 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <!-- allert -->
      
     <!-- allert -->
-
-
-
-    <!-- contact form -->
-    <section class="contact-form">
-        <h1 class="heading2 text-center text-light">CONTACT US</h1>
-        <div class="contact-form-container">
-            <form action="/action_page.php">
-                <label for="fname">Full Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                <label for="lname">Email</label>
-                <input type="email" id="lname" name="lastname" placeholder="Your email address..">
-                <!-- 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select> -->
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write your message.."
-                    style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </section>
-    <!-- contact form -->
-
-
 
 
     <!-- footer -->

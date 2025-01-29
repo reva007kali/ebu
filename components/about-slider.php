@@ -51,7 +51,7 @@
     <div class="swiper-wrapper about-wrapper">
 
         <div class="swiper-slide about-slide">
-            <section class="about" style="background: url(img/offices/jakarta3.jpg) center/cover no-repeat;">
+            <section class="about" style="background: url(img/team/cruiseteams.jpg) center/cover no-repeat;">
                 <div class="about-gradient"></div>
                 <!-- <img class="about-bg" src="img/crew/chef.png" alt=""> -->
                 <div class="about-content animate">

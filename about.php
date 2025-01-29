@@ -33,8 +33,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         <!-- <div class="overview-gradient"></div> -->
         <div class="overview-row ">
             <div class="overview-col ">
-                <h1 class="heading1 text-primary">The <span class=" text-secondary">Equinox</span>
-                    <span class="text-third">Companies</span>
+                <h1 class="heading1 text-primary">EQUINOX <span class=" text-secondary">SHIPPING</span>
+                    <span class="text-third">GROUP</span>
                 </h1>
                 <p class="">Founded in 2001, Equinox is a group of companies owned by PSU and include a leading fully
                     licensed shipowner, ship manager, port agency and crewing manager in Indonesia providing services
@@ -65,8 +65,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         <div class="overview-row ">
             <img src="img/ships/psu-1.jpg" alt="" class="overview-bg entry-anim">
             <div class="overview-col">
-                <h1 class="heading1 text-primary">Equinox <span class=" text-secondary">sentra</span>
-                    <span class="text-third">bahari</span>
+                <h1 class="heading1 text-primary">PT.EQUINOX <span class=" text-secondary">BAHARI</span>
+                    <span class="text-third">UTAMA</span>
                 </h1>
                 <p class="">We are committed to achieving the highest standards in all levels of our operations by
                     regular audits and training of our employees. Particular emphasis is placed on providing a safe
@@ -238,21 +238,26 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         <div class="ivan-row">
 
             <div class="ivan-col">
-                <h1 class="heading5 text-light">Ivan <span class="text-third">Pereira</span></h1>
-                <h2 class="text-secondary">Cruise Department General Manager</h2>
-                <p> With 25 years in the cruise industry, including 15 years in food service onboard Royal Caribbean
-                    Group (RCG) ships, I have extensive experience in talent acquisition. <br><br>My roles have included
-                    serving
-                    as a Lead Trainer, Global Recruiter for RCG, and Cruise Department Manager for RCG’s official hiring
-                    partner in Indonesia. I have also headed the cruise department for MSC Cruises, Explora Journeys,
-                    and Scylla AG River
-                    Cruises hiring partner in Indonesia. <br><br>My expertise spans managing high-volume hiring
-                    processes, from
-                    sourcing to deploying high-quality candidates onboard.
-                    Additionally, Iam capable in strategic planning to ensure efficient and effective recruitment
-                    operations
-                    for contemporary, luxury, and river cruise lines. My comprehensive understanding of the industry
-                    allows me to identify and recruit top talent.</p>
+                <h1 class="heading1 text-light">Ivan <span class="text-third">Pereira</span></h1>
+                <h2 class="text-secondary">General Manager, Cruise Department
+                </h2>
+                <p>With 25 years in the cruise industry, including 15 years in food service onboard Royal Caribbean
+                    Group (RCG) ships, I have dedicated my career to talent acquisition and helping Indonesians achieve
+                    their dreams of working on cruise ships.
+
+                    <br><br>Throughout my career, I have served as a Lead Trainer, Global Recruiter for RCG, and Cruise
+                    Department Manager for RCG’s official hiring partner in Indonesia. I have also led the cruise
+                    department for MSC Cruises, Explora Journeys, and Scylla AG River Cruises hiring partner in
+                    Indonesia.
+                    <br><br>My expertise lies in managing high-volume hiring processes, from sourcing to deploying
+                    high-quality candidates onboard. I am passionate about strategic planning to ensure efficient and
+                    effective recruitment operations for contemporary, luxury, and river cruise lines. My deep
+                    understanding of the industry allows me to identify and recruit top talent.
+                    <br><br>I am committed to continuing my mission of helping Indonesians secure rewarding careers on
+                    cruise ships, both now and in the future. My passion for this work drives me to make a positive
+                    impact on the lives of many, ensuring they have the opportunity to thrive in the cruise industry.
+
+                </p>
                 <a href="https://www.linkedin.com/in/ivan-pereira-4456a5196/"><i data-feather="linkedin"></i>Visit
                     LinkedIn</a>
             </div>
@@ -263,18 +268,19 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- leader -->
     <section class="leader2 entry-anim">
-        <h1 class="heading1 text-left text-primary">Cruise <span class="text-light">Department</span> <span class="text-light">Leader</span></h1>
-        <div class="leader-row">
-            <div class="leader-col">
-                <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/toar_.png" alt="">
-                <div class="leader-info">
-                    <h2 class="leader-name">Toar B Sumanti</h2>
-                    <h4 class="leader-position">Cruise Department Manager</h4>
-                    <a href="https://www.linkedin.com/in/toar-sumanti-62226510a/"><i data-feather="linkedin"></i>Visit
-                        LinkedIn</a>
-                </div>
+        <h1 class="heading1 text-left text-primary">Cruise <span class="text-light">Department</span> <span
+                class="text-primary">Leader</span></h1>
+        <div class="leader-col">
+            <div class="leader-gradient"></div>
+            <img class="leader-image" src="img/team/toar_.png" alt="">
+            <div class="leader-info">
+                <h2 class="leader-name">Toar B Sumanti</h2>
+                <h4 class="leader-position">Cruise Department Manager</h4>
+                <a href="https://www.linkedin.com/in/toar-sumanti-62226510a/"><i data-feather="linkedin"></i>Visit
+                    LinkedIn</a>
             </div>
+        </div>
+        <div class="leader-row">
             <div class="leader-col">
                 <div class="leader-gradient"></div>
                 <img class="leader-image" src="img/team/agni.jpeg" alt="">
@@ -298,13 +304,13 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
             </div>
             <div class="leader-col">
                 <div class="leader-gradient"></div>
-                <img class="leader-image" src="img/team/raissas.jpeg" alt="">
+                <img class="leader-image" src="img/team/ruth.jpeg" alt="">
                 <div class="leader-info">
                     <h2 class="leader-name">Ruth</h2>
                     <h4 class="leader-position">Visa Section Head
                     </h4>
-                    <a href="https://www.linkedin.com/in/raissa-hummaira-643aa7141/"><i
-                            data-feather="linkedin"></i>Visit LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/ruth-aprillia/"><i data-feather="linkedin"></i>Visit
+                        LinkedIn</a>
                 </div>
             </div>
             <!-- <div class="leader-col">
@@ -371,33 +377,40 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
         <h1 class="heading1 text-center text-light">Our Values</h1>
         <div class="value-row">
 
+
             <div class="value-col">
-                <img class="value-icon" src="img/icon/badge.gif" alt="">
+                <img class="value-icon" src="img/icon/shield.gif" alt="">
                 <div class="value-content">
-                    <h1>Excellence</h1>
-                    <p>We strive for the highest standards in every aspect of our services, ensuring satisfaction for
-                        both cruise partners and crew members.</p>
+                    <h1>Safety & Environtment</h1>
+                    <p>We strive towards zero incidents for our people, the well-being of crew members, property, and
+                        sustainability environment compliance.</p>
                 </div>
             </div>
 
             <div class="value-col">
                 <img class="value-icon" src="img/icon/justice.gif" alt="">
                 <div class="value-content">
-                    <h1>Integrity</h1>
-                    <p>We operate with transparency, honesty, and ethics, building trust and long-term relationships
-                        with our partners and clients.</p>
+                    <h1>Transparency</h1>
+                    <p>We act with ethical integrity and full open transparency throughout to build trust and confidence with our customers. Seek and respond to feedback from stakeholders to continuously improve business practices.</p>
                 </div>
             </div>
 
             <div class="value-col">
                 <img class="value-icon" src="img/icon/handshake.gif" alt="">
                 <div class="value-content">
-                    <h1>Collaboration</h1>
-                    <p>We value teamwork and partnerships, fostering strong connections between cruise lines, crew
-                        members, and global stakeholders.</p>
+                    <h1>Relationships</h1>
+                    <p>We have close interaction with our customers, stakeholders and staff inclusively and professionally.</p>
                 </div>
             </div>
 
+            <div class="value-col">
+                <img class="value-icon" src="img/icon/badge.gif" alt="">
+                <div class="value-content">
+                    <h1>Quality</h1>
+                    <p> We ensure quality in everything we do from the top down.</p>
+                </div>
+            </div>
+<!-- 
             <div class="value-col">
                 <img class="value-icon" src="img/icon/innovation.gif" alt="">
                 <div class="value-content">
@@ -405,8 +418,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                     <p>We embrace creativity and forward-thinking solutions to meet the evolving demands of the maritime
                         and cruise industries.</p>
                 </div>
-            </div>
-
+            </div> -->
+<!-- 
             <div class="value-col">
                 <img class="value-icon" src="img/icon/diversity.gif" alt="">
                 <div class="value-content">
@@ -414,16 +427,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                     <p>We celebrate diversity and promote an inclusive environment where people of all backgrounds can
                         thrive and succeed.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="value-col">
-                <img class="value-icon" src="img/icon/shield.gif" alt="">
-                <div class="value-content">
-                    <h1>Sustainability</h1>
-                    <p>We are dedicated to environmentally responsible practices and contributing to the long-term
-                        health of the maritime industry.</p>
-                </div>
-            </div>
 
         </div>
     </div>
@@ -445,11 +450,6 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
     <?php include 'components/licenses.php' ?>
     <!-- licenses -->
 
-
-
-    <!-- contact form -->
-    <?php include 'components/contact-form.php' ?>
-    <!-- contact form -->
 
     <?php include 'components/footer.php' ?>
 

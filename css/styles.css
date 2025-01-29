@@ -1369,13 +1369,14 @@ a {
 .about {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   position: relative;
   /* background: url(../img/ships/Royal-Caribbean-Wonder-of-the-Seas_1.webp); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  padding-inline: 4rem;
+  padding: 3rem;
   margin-top: 100px;
   margin-inline: 2rem;
   border-radius: var(--border-radius);
@@ -1384,7 +1385,7 @@ a {
 .about-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
   gap: 20px;
   width: 50%;
@@ -1420,8 +1421,8 @@ a {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     135deg,
-    rgba(0, 8, 47, 0.914) 30%,
-    rgba(0, 212, 255, 0) 100%
+    rgba(0, 8, 47, 0.914) 20%,
+    rgba(0, 212, 255, 0) 50%
   );
   top: 0;
   left: 0;
@@ -1586,33 +1587,29 @@ a {
 /* profile video */
 .company-vid {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 6rem;
-  height: 80vh;
+  min-height: 100vh;
   position: relative;
   padding-inline: 2rem;
 }
 .company-vid video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 98%;
+  width: 70%;
+  height: 500px;
+  margin-inline: auto;
   object-fit: cover;
   border-radius: 100px;
   z-index: 2;
 }
 .company-vid img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin-inline: auto;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 500px;
   z-index: 4;
   pointer-events: none;
+  transform: translate(-50%, -50%);
 }
 
 /* profile video */
@@ -1935,10 +1932,9 @@ a {
   justify-content: center;
   align-items: center;
   background-color: var(--primary);
+  min-height: 100vh;
   gap: 2rem;
-  margin: 2rem;
   padding: 2rem;
-  border-radius: var(--border-radius);
 }
 .value-row {
   display: flex;
@@ -1952,8 +1948,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 10px;
   width: 300px;
+  min-height: 400px;
   padding: 1.5rem;
   margin: 10px;
   border-radius: 20px;
@@ -1972,6 +1970,9 @@ a {
 .value-content h1 {
   color: var(--third);
 }
+.value-content p {
+  font-size: 15px;
+}
 
 /* jobs */
 .jobs {
@@ -1984,7 +1985,10 @@ a {
   background-position: center;
   overflow: hidden;
   padding-inline: 4rem;
-  height: 100svh;
+  height: 82svh;
+  margin-top: 100px;
+  margin-inline: 2.5rem;
+  border-radius: var(--border-radius);
 }
 .jobs-content {
   display: flex;
@@ -2063,6 +2067,37 @@ a {
   width: 40%;
 }
 /* jobs */
+
+/* partner */
+.partner-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-block:2rem;
+}
+.partner-row img {
+  max-width: 200px;
+}
+/* partner */
+
+
+/* job dashboard */
+.job-dash-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-inline: 4rem;
+}
+.job-item {
+  width: 260px;
+  height: 260px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-l);
+}
+/* job dashboard */
 
 /* job opening */
 .job-opening {
