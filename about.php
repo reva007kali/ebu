@@ -374,7 +374,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- our values -->
     <div class="values entry-anim">
-        <h1 class="heading1 text-center text-light">Our Values</h1>
+        <h1 class="heading1 text-center text-light">Our Values</h1>o
         <div class="value-row">
 
 
