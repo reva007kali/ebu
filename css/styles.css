@@ -61,7 +61,7 @@
 /* Root Variables */
 :root {
   --background-color: #f5f5f5;
-  --background-secondary: rgb(226, 226, 226);
+  --background-secondary: rgb(243, 243, 243);
   --blur-background: rgba(255, 255, 255, 0.717);
   --text-color: #212121;
   --primary: #04306a;
@@ -605,11 +605,11 @@ a {
 @keyframes appear {
   from {
     opacity: 0;
-    transform: translateX(-400px);
+    transform: translateY(-300px);
   }
   to {
-    opacity: .2;
-    transform: translateX(-100px);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 .services {

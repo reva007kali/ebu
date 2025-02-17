@@ -1,7 +1,7 @@
 <?php
 // Define routes and their corresponding handlers
 $routes = [
-    'localhost/ebu/' => 'home.php',
+    '/' => 'home.php',
     '/about' => 'about.php',
     '/contact' => 'contact.php',
     '/jobs' => 'jobs.php',
