@@ -24,14 +24,14 @@ const observerShadow = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add("in-viewport"); // Add the class when the element is in the viewport
+        entry.target.classList.add("in-viewport"); 
       } else {
-        entry.target.classList.remove("in-viewport"); // Remove the class when the element is out of the viewport
+        entry.target.classList.remove("in-viewport");
       }
     });
   },
   {
-    threshold: 0.7, // Trigger when 10% of the element is visible
+    threshold: 0.7, 
   }
 );
 
