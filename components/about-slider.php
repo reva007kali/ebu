@@ -109,7 +109,7 @@
         loop: true,
         speed: 1000,
         spaceBetween: 30,
-        effect: "fade",
+        // effect: "fade",
         autoplay: {
             delay: 10000,
             disableOnInteraction: false,

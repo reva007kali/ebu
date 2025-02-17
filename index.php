@@ -1,14 +1,14 @@
 <?php
 // Define routes and their corresponding handlers
 $routes = [
-    '/' => 'home.php',
+    'localhost/ebu/' => 'home.php',
     '/about' => 'about.php',
     '/contact' => 'contact.php',
     '/jobs' => 'jobs.php',
     '/crewing-services' => 'crewing-services.php',
     '/information' => 'information.php',
     '/credits' => 'credits.php',
-    
+
 ];
 
 // Get the current path from the URL

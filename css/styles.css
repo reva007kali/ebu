@@ -605,11 +605,11 @@ a {
 @keyframes appear {
   from {
     opacity: 0;
-    transform: scale(0.9);
+    transform: translateX(-400px);
   }
   to {
-    opacity: 1;
-    transform: scale(1);
+    opacity: .2;
+    transform: translateX(-100px);
   }
 }
 .services {
@@ -2069,6 +2069,9 @@ a {
 /* jobs */
 
 /* partner */
+.partner {
+  margin-block: 2.5rem;
+}
 .partner-row {
   display: flex;
   justify-content: center;
@@ -2084,9 +2087,8 @@ a {
 
 
 /* job dashboard */
-.job-dash-grid {
+.job-dash {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
   margin-inline: 4rem;
@@ -2096,6 +2098,9 @@ a {
   height: 260px;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-l);
+}
+.job-company {
+  font-size: 14px;
 }
 /* job dashboard */
 

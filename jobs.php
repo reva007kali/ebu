@@ -34,6 +34,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- royal brands logo  -->
      <div class="partner">
+        <h1 class="text-center text-primary">OFFICIAL HIRING PARTNER OF ROYAL CARIBBEAN GROUP</h1>
         <div class="partner-row">
             <img src="img/assets/brands-logo/royal-logo.png" alt="">
             <img src="img/assets/brands-logo/celebrity-logo.png" alt="">
@@ -45,56 +46,39 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
 
     <!-- job dashobard -->
      <div class="jobs-dash">
+        <div class="job-dash-filter">
+            <h1>Department</h1>
+            <ul>
+                <li>Hotel Department</li>
+                <li>Marine Department</li>
+            </ul>
+            <ul>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+                <li>positions</li>
+            </ul>
+        </div>
         <div class="job-dash-grid">
 
             <div class="job-item">
-                <h4>Royal Caribbean</h4>
-                <h2>Waiter</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h4 class="job-company">Royal Caribbean</h4>
+                <h2 class="job-position">Waiter</h2>
+                <p class="job-description">Lorem ipsum dolor sit amet.</p>
                 <div class="job-item-cta">
                     <a class="btn" href="">Apply now</a>
                     <a class="btn" href="">See Requirements</a>
                 </div>
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
-            </div>
-
-            <div class="job-item">
-
             </div>
 
         </div>

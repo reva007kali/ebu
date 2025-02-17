@@ -68,14 +68,15 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <h1 class="heading1 text-primary">PT.EQUINOX <span class=" text-secondary">BAHARI</span>
                     <span class="text-third">UTAMA</span>
                 </h1>
-                <p class="">We are committed to achieving the highest standards in all levels of our operations by
-                    regular audits and training of our employees. Particular emphasis is placed on providing a safe
-                    working environment and the consistent application of safe working practices to ensure: Safety of
-                    life
+                <p class="">Cruise (PT.EBU) is the crewing unit of Equinox Shipping Group, which hires for cruise lines.
+                    PT EBU is one of the top crewing agencies in Indonesia and has been the official hiring partner for
+                    the Royal Caribbean Group since 2019. PT EBU boasts of deploying 4000+ new hires from Indonesia
+                    onboard Royal Caribbean Group ships and will continue to do so in the future. It’s expertise lies in
+                    recruiting top talent for the Hotel and Marine departments, assisting them with the required
+                    documentation and visa processes, and finally ensuring they are deployed in a timely manner in
+                    coordination with the client's scheduling and crew readiness team
                     <br>
-                    <br>Safety of cargo
-                    Safety of property and assets
-                    Protection and improvement of the environment
+                    <br>
 
                 </p>
                 <div class="overview-brands">
@@ -391,7 +392,9 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <img class="value-icon" src="img/icon/justice.gif" alt="">
                 <div class="value-content">
                     <h1>Transparency</h1>
-                    <p>We act with ethical integrity and full open transparency throughout to build trust and confidence with our customers. Seek and respond to feedback from stakeholders to continuously improve business practices.</p>
+                    <p>We act with ethical integrity and full open transparency throughout to build trust and confidence
+                        with our customers. Seek and respond to feedback from stakeholders to continuously improve
+                        business practices.</p>
                 </div>
             </div>
 
@@ -399,7 +402,8 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                 <img class="value-icon" src="img/icon/handshake.gif" alt="">
                 <div class="value-content">
                     <h1>Relationships</h1>
-                    <p>We have close interaction with our customers, stakeholders and staff inclusively and professionally.</p>
+                    <p>We have close interaction with our customers, stakeholders and staff inclusively and
+                        professionally.</p>
                 </div>
             </div>
 
@@ -410,7 +414,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                     <p> We ensure quality in everything we do from the top down.</p>
                 </div>
             </div>
-<!-- 
+            <!-- 
             <div class="value-col">
                 <img class="value-icon" src="img/icon/innovation.gif" alt="">
                 <div class="value-content">
@@ -419,7 +423,7 @@ if (preg_match('/\.(html|css|js)$/', $_SERVER['REQUEST_URI'])) {
                         and cruise industries.</p>
                 </div>
             </div> -->
-<!-- 
+            <!-- 
             <div class="value-col">
                 <img class="value-icon" src="img/icon/diversity.gif" alt="">
                 <div class="value-content">
